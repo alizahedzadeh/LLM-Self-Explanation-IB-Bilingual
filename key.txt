@@ -1,0 +1,11 @@
+Gemini :
+AIzaSyDdkiVH8M-P_MpWbO4tAH88t2MLOemR9XY
+
+Openai :
+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
+
+groq :
+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
+
+groq2 :
+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

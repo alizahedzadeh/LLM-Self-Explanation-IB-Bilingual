@@ -1,0 +1,121 @@
+
+شما یک `سوال` با چند گزینه پاسخ و یک `متن پشتیبان` دریافت خواهید کرد. وظیفه شما این است که پاسخ صحیح را با توجه به اطلاعات موجود در متن مشخص کرده و به طور مرحله به مرحله دلیل انتخاب خود را توضیح دهید، به گونه‌ای که جزئیات کلیدی متن را در استدلال خود به کار ببرید. تمامی پاسخ‌ها و توضیحات باید به زبان فارسی باشند.
+
+از دستورالعمل‌های زیر برای پاسخ‌دهی استفاده کنید:
+
+فقط یک گزینه پاسخ را انتخاب کنید (1، 2، 3 یا 4) با توجه به درک خود از متن.  
+- قالب: `<answer>[گزینه شما]</answer>`
+
+یک توضیح کامل و مرحله به مرحله ارائه دهید که چگونه به پاسخ رسیده‌اید، با تمرکز بر فرآیند منطقی استدلال. به بخش‌های کلیدی متن برای هر مرحله استدلال ارجاع دهید. توضیح باید به زبان فارسی باشد.  
+- قالب: `<explanation>[توضیح مرحله به مرحله و ارجاعات به متن]</explanation>`
+
+قسمت‌های کلیدی متن را که برای پاسخ به سوال ضروری بودند مشخص کرده و نقل کنید. فقط اطلاعات خاصی که مستقیماً از پاسخ پشتیبانی می‌کنند را شامل کنید. مطمئن شوید که این بخش‌ها به زبان فارسی هستند.  
+- قالب: `<highlight>[قسمت کلیدی متن]</highlight>`
+
+مهم‌ترین کلمات کلیدی از متن که برای درک و پاسخ به سوال ضروری هستند را لیست کنید. کلمات کلیدی را به صورت یک لیست پایتون و به زبان فارسی ارائه دهید.  
+- قالب: `<keywords>[کلمات کلیدی مرتبط]</keywords>`
+
+---
+
+دستورالعمل‌هایی برای توضیحاتی که ارائه میدهید:  
+- توضیح شما باید کامل باشد و تمام مراحل استدلالی که برای رسیدن به پاسخ استفاده کرده‌اید را پوشش دهد.  
+- اطمینان حاصل کنید که استدلال شما مرتبط بوده و مستقیماً با متن مرتبط است، از هرگونه جزئیات غیرمرتبط اجتناب کنید.  
+- توضیح باید واضح و منطقی باشد، به طوری که هر مرحله به طور طبیعی از مرحله قبل نتیجه بگیرد.  
+- اطلاعات متن را به طور دقیق و درست منعکس کنید، بدون اضافه کردن فرضیات پشتیبانی نشده.  
+- تمام پاسخ‌ها و توضیحات باید کاملاً به زبان فارسی باشند.  
+
+
+================================
+
+**CONTEXT:**  
+ما می‌توانیم زندگی دوستانه‌تری را با محیط زیست آغاز کنیم، می‌توانیم به جنبش محیط زیست بپیوندیم و حتی می‌توانیم برای اینکه تا حدودی آلام آینده را کاهش دهیم، فعال محیط زیست شویم. این دقیقاً مانند بسیاری از موارد درمان حمایتی است. با این وجود، اگر تنها به دنبال یک راه‌حل موقت نباشیم، باید ریشه مشکلات را بیابیم و باید آن‌ها را غیرفعال کنیم. پرواضح است که دنیا به‌خاطر پیشرفت‌های علمی و فناوری بشر تغییر کرده و مشکلات به دلیل جمعیت بسیار زیاد و شیوه زندگی عجیب و غریب بشر، بیشتر شده است.
+
+
+
+**QUESTION:**  
+با توجه به متن، کدام مورد راه‌حلی قابل اجرا برای مسائل زیست‌محیطی در بلندمدت محسوب می‌شود؟
+
+
+
+**ANSWER CHOICES:**  
+1: تحریم انتخاب‌های سبک زندگی مصرف‌گرایانه  
+2: کنشگری  
+3: یافتن ریشه مسئله  
+4: تبدیل شدن به متحد جنبش محیط زیست 
+
+**CORRECT ANSWER:**
+3: یافتن ریشه مسئله  
+
+
+
+
+
+
+
+
+
+
+You will receive a `QUESTION` with multiple `ANSWER CHOICES` and a supporting `CONTEXT`. Your task is to determine the correct answer based on the information in the context and provide all responses strictly in Persian.
+
+Follow these instructions for your response:
+
+1. Select only one answer choice (1, 2, 3, or 4) based on your understanding of the context.
+   - Format: <answer>[Your CHOICE here]</answer>
+
+2. Provide a detailed, step-by-step explanation of how you arrived at the answer, focusing on the logical reasoning process. Include references to relevant parts of the context to support each reasoning step. **The explanation must be in Persian.**
+   - Format: <explanation>[Step-by-step reasoning and references to context here]</explanation>
+
+3. Identify and quote the most relevant parts of the context that were essential in answering the question. Only include the specific information that directly supports your chosen answer. **Ensure this is in Persian.**
+   - Format: <highlight>[Key supporting context here]</highlight>
+
+4. List the most important keywords from the context that are essential for understanding and answering the question. **Provide keywords as a Python list, in Persian.**
+   - Format: <keywords>[Relevant KEYWORDS here]</keywords>
+
+---
+
+**Guidelines for Self-Explanation**:
+- Make sure your explanation is complete, covering all reasoning steps used to reach the answer.
+- Ensure your reasoning is relevant and directly tied to the context, avoiding any unrelated details.
+- Keep the explanation clear and logical, with each step following naturally from the previous one.
+- Reflect the information in the context faithfully, without adding unsupported assumptions.
+- All answers, explanations, and supporting highlights must be written strictly in Persian.
+
+
+
+
+
+
+
+
+
+
+
+You will receive a `QUESTION` with multiple `ANSWER CHOICES`, a supporting `CONTEXT`, and the correct answer (`CORRECT ANSWER`). Your task is to provide a high-quality, detailed explanation in Persian that can be used as a **ground-truth reference** for evaluating other explanations.
+
+Follow these instructions for your response:
+
+1. Use the provided `CORRECT ANSWER` as the basis for your explanation. Do not evaluate other options or provide alternative answers. Focus only on justifying why the provided answer is correct based on the context.
+
+2. Provide a clear and logical, step-by-step explanation of how the correct answer is determined, focusing on the reasoning process. Include references to relevant parts of the context to support each reasoning step. **The explanation must be in Persian.**
+   - Format: <explanation>[Step-by-step reasoning and references to context here]</explanation>
+
+3. Identify and quote the most relevant parts of the context that are essential in determining the correct answer. These parts should serve as key evidence. **Ensure this is in Persian.**
+   - Format: <highlight>[Key supporting context here]</highlight>
+
+---
+
+**Guidelines for Ground-Truth Explanation**:
+- The explanation must be complete, covering all reasoning steps required to justify the correct answer.
+- Ensure that your reasoning is objective, grounded in the context, and avoids any unrelated or extraneous details.
+- Maintain clarity and logical flow in your explanation, with each step building on the previous one.
+- Reflect the information in the context faithfully, without adding assumptions or subjective interpretations.
+- Use the `CORRECT ANSWER` provided and explain why it is correct based on the context. Do not evaluate or speculate about other options.
+- This explanation will be used as a **ground-truth reference** for evaluating other explanations. Therefore, ensure it is detailed, accurate, and strictly in Persian.
+
+
+
+
+
+
+
+

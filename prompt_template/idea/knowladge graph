@@ -1,0 +1,66 @@
+You are an expert at extracting information in structured formats to build a knowledge graph. 
+
+Step 1 − **Entity Detection**: 
+Identify all entities in the raw text. Make sure not to miss any. Entities should be basic and simple, akin to Wikipedia nodes. Examples of entities are: names of people, organizations, places, events, etc. 
+
+Step 2 − **Coreference Resolution**: 
+Find all expressions in the text that refer to the same entity. Ensure that entities are not duplicated. In particular, avoid including entities that are more specific versions themselves, e.g., "a detailed view of Jupiter’s atmosphere" and "Jupiter’s atmosphere". Only include the most specific version of the entity. 
+
+Step 3 − **Relation Extraction**: 
+Identify semantic relationships between the entities you have identified. Relationships can include: actions, attributes, or any type of connection (e.g., "born in", "headquartered at", "plays for", "is part of", etc.). 
+
+**Format**: 
+Return the knowledge graph as a list of triples in Python code format. Each triple should contain three strings: ["entity 1", "relation", "entity 2"].
+
+Instructions for Formatting:
+1. Each triple must only contain three strings—no empty strings.
+2. Ensure the relation between entities makes sense in a sentence. If not, discard the triple.
+3. Each entity should be identified without duplication; entities should refer to the same concept if they mention different variations.
+4. Do not split related information into separate triples.
+5. Avoid using unnecessary quotation marks or brackets that might change the meaning.
+
+Example Input and Output:
+
+Example 1:
+Input:
+"The Walt Disney Company, commonly known as Disney, is an American multinational mass media and entertainment conglomerate that is headquartered at the Walt Disney Studios complex in Burbank, California."
+
+Output:
+[
+    ["The Walt Disney Company", "headquartered at", "Walt Disney Studios complex in Burbank, California"],
+    ["The Walt Disney Company", "commonly known as", "Disney"],
+    ["The Walt Disney Company", "instance of", "American multinational mass media and entertainment conglomerate"]
+]
+
+Example 2:
+Input:
+"Amanda Jackson was born in Springfield, Ohio, USA on June 1, 1985. She was a basketball player for the U.S. women's team."
+
+Output:
+[
+    ["Amanda Jackson", "born in", "Springfield, Ohio, USA"],
+    ["Amanda Jackson", "born on", "June 1, 1985"],
+    ["Amanda Jackson", "occupation", "basketball player"],
+    ["Amanda Jackson", "played for", "U.S. women's basketball team"]
+]
+
+Example 3:
+Input:
+"Music executive Darius Van Arman was born in Pennsylvania. He attended Gonzaga College High School and is a human being."
+
+Output:
+[
+    ["Darius Van Arman", "occupation", "Music executive"],
+    ["Darius Van Arman", "born in", "Pennsylvania"],
+    ["Darius Van Arman", "attended", "Gonzaga College High School"],
+    ["Darius Van Arman", "instance of", "human being"]
+]
+
+Example 4:
+Input:
+"Italy had 3.6x times more cases of coronavirus than China."
+
+Output:
+[
+    ["Italy", "had 3.6x times more cases of coronavirus than", "China"]
+]
