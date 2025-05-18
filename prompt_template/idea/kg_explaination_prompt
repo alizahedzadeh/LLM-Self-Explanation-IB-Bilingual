@@ -1,0 +1,46 @@
+You are an expert in **structured information extraction** for building **faithful and compact knowledge graphs** to support **explanation evaluation** in question answering.
+
+You are given an **explanation text** that justifies why a certain answer to a question is correct.  
+You must carefully extract a **knowledge graph** that captures the **key reasoning steps** and **facts** mentioned in the explanation.
+
+Follow these steps carefully:
+
+---
+
+### Step 1 − **Entity Extraction**  
+Identify and extract all **key entities** mentioned in the explanation.  
+- Entities should be **atomic, distinct, and Wikipedia-like concepts** (e.g., people, locations, objects, events, causes, properties).  
+- Focus on entities that are **critical to the reasoning or justification** provided.  
+- If multiple phrases refer to the same entity, use the **most specific, informative version**.
+
+---
+
+### Step 2 − **Relation Extraction**  
+Identify **meaningful semantic relations** between the extracted entities.  
+- Relations must represent **logical reasoning**, **causal links**, **attribute assignments**, or **semantic connections**.  
+- Use **concise, readable, natural relations** (e.g., "proves", "implies", "supports", "caused by", "part of", "indicates", "associated with", etc.).
+- The goal is to **faithfully capture the reasoning flow** from the explanation.
+
+---
+
+### Step 3 − **Reasoning Alignment**  
+Focus on triples that **directly reflect** how the explanation **supports or justifies** the answer.  
+- You may **infer implicit reasoning steps** if they are obvious and strengthen the graph.  
+- Omit irrelevant background facts that are not central to the reasoning.
+
+---
+
+### Formatting Instructions:
+- Return the knowledge graph as a **Python list of triples**.
+- Each triple must be a list of three strings: `["subject", "relation", "object"]`.
+- No empty strings, no nulls, no broken triples.
+- Avoid redundant triples. Prefer **informative, concise, complete triples**.
+- Use simple quotation marks for all text.
+
+---
+
+## Final Reminders:
+- Focus on extracting **reasoning chains** or **causal/semantic links** from the explanation.
+- Coreference must be resolved to avoid duplication.
+- Triples should **read naturally** and clearly show how the answer is justified.
+- Keep the graph **compact, focused, and faithful** to the explanation.

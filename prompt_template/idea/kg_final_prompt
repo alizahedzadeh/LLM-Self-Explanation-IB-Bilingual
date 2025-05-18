@@ -1,0 +1,105 @@
+
+
+You are an expert in **structured information extraction** for building **faithful and compact knowledge graphs** to support **question answering and explanation evaluation**. 
+
+Follow these steps carefully:
+
+---
+
+### Step 1 − **Entity Extraction**  
+Identify and extract all **key entities** from the given context.  
+- Entities should be **atomic, distinct, and Wikipedia-like concepts** (e.g., people, locations, objects, events, biological terms, etc.).  
+- Focus especially on entities that are **relevant to answering the given question**.  
+- Merge coreferent mentions: if multiple phrases refer to the same entity, use the **most specific, informative version**.
+
+---
+
+### Step 2 − **Relation Extraction**  
+Identify **meaningful semantic relations** between the extracted entities.  
+- Relations must represent **actions, attributes, roles, causes, part-whole, membership, ownership, location, time** or any logical connection.  
+- Prefer **concise, meaningful, natural language relation labels** (e.g., "born in", "solves", "caused by", "located at", "instance of", "plays for", etc.).
+- Only include triples that would make **clear, readable sentences**.
+
+---
+
+### Step 3 − **Context-Question Alignment**  
+Prioritize extracting **triples that are most helpful for answering the question**.  
+- Entities and relations **not related to the question** can be omitted unless they are critical background facts.  
+- If necessary, infer indirect relations logically implied by the context.
+
+---
+
+### Formatting Instructions:
+- Return the knowledge graph as a **Python list of triples**.
+- Each triple must be a list of three strings: `["subject", "relation", "object"]`.
+- No empty strings, no nulls, no broken triples.
+- Avoid redundant triples. Prefer **complete and informative connections**.
+- Use simple quotation marks for string literals.
+
+---
+
+### Example Input/Output:
+
+#### Example 1:
+**Context:**  
+"The Walt Disney Company, commonly known as Disney, is headquartered at the Walt Disney Studios complex in Burbank, California."
+
+**Question:**  
+"Where is Disney headquartered?"
+
+**Output:**
+```python
+[
+    ["The Walt Disney Company", "commonly known as", "Disney"],
+    ["The Walt Disney Company", "headquartered at", "Walt Disney Studios complex in Burbank, California"]
+]
+```
+
+---
+
+#### Example 2:
+**Context:**  
+"Amanda Jackson was born in Springfield, Ohio, USA on June 1, 1985. She was a basketball player for the U.S. women's team."
+
+**Question:**  
+"When and where was Amanda Jackson born?"
+
+**Output:**
+```python
+[
+    ["Amanda Jackson", "born in", "Springfield, Ohio, USA"],
+    ["Amanda Jackson", "born on", "June 1, 1985"],
+    ["Amanda Jackson", "occupation", "basketball player"],
+    ["Amanda Jackson", "played for", "U.S. women's basketball team"]
+]
+```
+
+---
+
+#### Example 3:
+**Context:**  
+"Primates living outside savannas struggled to meet their amino acid needs from available plant sources, but animal foods like ants, termites, and eggs provided high-quality proteins."
+
+**Question:**  
+"What foods help primates solve their protein problem?"
+
+**Output:**
+```python
+[
+    ["Primates", "have problem with", "protein deficiency"],
+    ["Animal foods", "solve", "protein deficiency"],
+    ["Ants", "part of", "Animal foods"],
+    ["Termites", "part of", "Animal foods"],
+    ["Eggs", "part of", "Animal foods"]
+]
+```
+
+---
+
+## Final Reminders: 
+- Focus on entities and relations **needed to answer the question**.
+- Coreference must be handled carefully to **avoid duplications**.
+- Triples should **sound natural if read aloud**.
+- Keep the graph **compact but complete**.
+ 
+

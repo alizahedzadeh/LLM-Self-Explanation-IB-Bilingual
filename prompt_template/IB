@@ -1,0 +1,306 @@
+You are given a multiple-choice question. Your task is to explain **why the correct answer is correct**, based on reasoning or general knowledge.
+
+Instructions:
+- Only explain the correct answer ({correct_answer}).
+- Do not discuss or compare incorrect options.
+- Use concise, logical reasoning (1–3 sentences).
+- Avoid repeating the question or giving generic answers.
+
+---
+
+Question: {question}
+
+Options:
+A) {option_A}
+B) {option_B}
+C) {option_C}
+D) {option_D}
+
+Answer: {correct_answer}
+
+Provide your response in the following format:
+
+<answer>{correct_answer}</answer>(Just say A/B/C/D)
+
+<explanation>
+[Your concise reasoning here — step-by-step if necessary.]
+</explanation>
+
+
+==============================
+
+
+You are given a question with multiple answer choices and a supporting passage. Your task is to explain **why the correct answer is supported by the passage**.
+
+Instructions:
+- Focus only on the correct option ({correct_answer}).
+- Do not mention or evaluate the other choices.
+- Use clear, concise reasoning (1–3 sentences).
+- Highlight only the most essential part(s) of the passage that justify the answer.
+
+---
+
+Passage:
+{passage}
+
+Question:
+{question}
+
+Options:
+A) {option_A}  
+B) {option_B}  
+C) {option_C}  
+D) {option_D}
+
+Answer: {correct_answer}
+
+Provide your response in the following format:
+
+<answer>{correct_answer}</answer>(Just say A/B/C/D)
+
+<explanation>
+[Step-by-step explanation in Persian or English, based on passage.]
+</explanation>
+
+===================
+
+You are given a multiple-choice question and an explanation that justifies one of the answer choices.
+
+Your task is to select which answer (A, B, C, or D) is most strongly supported by the explanation — **without access to the passage or question**.
+
+Only use the explanation to infer the correct answer.
+
+---
+
+Question:
+{question}
+
+Options:
+A) {option_A}  
+B) {option_B}  
+C) {option_C}  
+D) {option_D}
+
+Explanation:
+{explanation}
+
+Based solely on this explanation, which answer option is most likely correct? (Just say A/B/C/D)
+
+===================
+
+You are given a multiple-choice question, its options, the correct answer, and an explanation justifying that answer.
+
+Your task is to decide whether this explanation contains any **unnecessary, redundant, or off-topic information**.  
+Unnecessary parts include: repeated phrases, irrelevant facts, or overly long reasoning that is not essential for justifying the answer.
+
+---
+
+Answer only in the following format:
+
+<redundant>Yes</redundant>(Just say Yes or No)  
+<justification>[Brief reason why you think it’s redundant or not]</justification>
+
+---
+
+### Example 1 (Concise):
+
+Question:  
+Why do people carry umbrellas on cloudy days?
+
+Options:  
+A) To shield from wind  
+B) Because it's fashionable  
+C) In case it rains  
+D) To keep warm
+
+Correct Answer: C
+
+Explanation:  
+People carry umbrellas on cloudy days in case it rains, as cloudy weather often signals possible rain.
+
+<redundant>No</redundant>  
+<justification>The explanation clearly and concisely supports the correct answer without any repetition or irrelevant detail.</justification>
+
+---
+
+### Example 2 (Redundant):
+
+Question:  
+Why might someone avoid walking alone at night?
+
+Options:  
+A) To save energy  
+B) To avoid danger  
+C) To get exercise  
+D) Because it's bright
+
+Correct Answer: B
+
+Explanation:  
+Someone might avoid walking alone at night to stay safe. Walking alone at night is dangerous, and being alone at night can lead to unsafe situations. Safety is important, and being alone at night is not safe.
+
+<redundant>Yes</redundant>(Just say Yes or No)   
+<justification>The explanation repeats the same idea (night is unsafe) multiple times without adding new reasoning.</justification>
+
+---
+
+### Now your turn:
+
+Question:  
+{question}
+
+Options:  
+A) {option_A}  
+B) {option_B}  
+C) {option_C}  
+D) {option_D}
+
+Correct Answer: {correct_answer}
+
+Explanation:  
+{explanation}
+
+---
+Evaluate the explanation.
+
+===================
+
+You are given a multiple-choice question, the correct answer, and an initial explanation.
+
+Your task is to improve this explanation in one of two ways:
+
+- If the explanation is missing important reasoning or does not clearly justify the correct answer, revise it to be more complete and logically sound.
+- If the explanation contains any redundant, off-topic, or overly verbose content, revise it to be more concise while preserving clarity.
+
+---
+
+Please respond using this format:
+
+<refined_explanation>
+[Your improved explanation here — clear, concise, and logically valid.]
+</refined_explanation>
+
+---
+
+Question:  
+{question}
+
+Options:  
+A) {option_A}  
+B) {option_B}  
+C) {option_C}  
+D) {option_D}
+
+Correct Answer: {correct_answer}
+
+Original Explanation:  
+{explanation}
+
+Evaluation Feedback:  
+{feedback}(e.g., “Redundant”, “Missing key justification from context”, etc.)
+
+===================
+
+You are given a multiple-choice question and a detailed explanation that supports the correct answer.
+
+Your task is to shorten the explanation **as much as possible**, while still keeping it sufficient to justify why the correct answer is correct.  
+Remove any redundant phrases, elaborations, or generalities. Keep only the **core reasoning**.
+
+---
+
+Respond in the following format:
+
+<pruned_explanation>
+[Minimally sufficient explanation here — 1–2 sentences max]
+</pruned_explanation>
+
+---
+
+Question:  
+{question}
+
+Options:  
+A) {option_A}  
+B) {option_B}  
+C) {option_C}  
+D) {option_D}
+
+Correct Answer: {correct_answer}
+
+Original Explanation:  
+{explanation}
+
+===================
+
+You are given a question, a set of multiple-choice answers, and the correct answer.  
+Your task is to generate an explanation in a specific style to justify why the correct option is right.
+
+---
+
+Style: {style_description}  
+step_by_step	Explain the reasoning process step-by-step
+concise_summary	Justify the correct answer in a short summary
+full_contrastive	Justify the correct answer and explain why the other options are wrong
+evidence_only	Only mention the key piece of evidence from the passage
+partial_contrastive	Justify the correct answer and briefly contrast it with the most plausible incorrect one
+
+---
+
+Question:  
+{question}
+
+Options:  
+A) {option_A}  
+B) {option_B}  
+C) {option_C}  
+D) {option_D}
+
+Correct Answer: {correct_answer}
+
+Provide your explanation using this format:
+
+<explanation>
+[Explanation written in the requested style]
+</explanation>
+
+===================
+
+
+You are an explanation refinement agent.
+
+You will receive a multiple-choice question, its options, the correct answer, and an initial explanation.
+
+Your task is to:
+1. Evaluate whether the explanation is **sufficient**: does it clearly justify the correct answer based on the question?
+2. Evaluate whether it is **concise**: does it avoid repetition, off-topic content, or unnecessary elaboration?
+3. If any issue is found, revise the explanation to make it more sufficient and/or concise.
+
+Repeat the evaluation process after each revision. Stop once the explanation is both sufficient and concise.
+
+---
+
+Respond in this structured format for each iteration:
+
+<iteration>{i}</iteration>
+
+<sufficient>[Yes/No]</sufficient>  
+<concise>[Yes/No]</concise>  
+<feedback>[Brief summary of any issues]</feedback>  
+<refined_explanation>[Rewritten explanation based on the feedback]</refined_explanation>
+
+---
+
+Question:  
+{question}
+
+Options:  
+A) {option_A}  
+B) {option_B}  
+C) {option_C}  
+D) {option_D}
+
+Correct Answer: {correct_answer}
+
+Initial Explanation:  
+{explanation}
+

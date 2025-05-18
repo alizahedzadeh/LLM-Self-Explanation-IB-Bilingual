@@ -1,0 +1,1609 @@
+,prediction,explanation,raw_output,index,strategy,prompt,passage,question,option_A,option_B,option_C,option_D,correct_answer_num
+0,D,The passage states that studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty.,"<prediction>D</prediction>
+                                               
+<explanation>The passage states that studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty.</explanation>",0,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Traffic Flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another. Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty. Fortunately, drivers tend to behave within a reasonably consistent range; thus, traffic streams tend to have some reasonable consistency and can be roughly represented mathematically. To better represent traffic flow, relationships have been established between the three main characteristics: (1) flow, (2) density, and (3) velocity. These relationships help in planning, design, and operations of roadway facilities.
+
+Question: According to the passage, which of the following can be difficult to gauge due to the unpredictability of drivers?
+
+Options:
+A) Traffic velocity  
+B) Roadway planning  
+C) Roadway operations  
+D) Traffic Flow
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Traffic Flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another. Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty. Fortunately, drivers tend to behave within a reasonably consistent range; thus, traffic streams tend to have some reasonable consistency and can be roughly represented mathematically. To better represent traffic flow, relationships have been established between the three main characteristics: (1) flow, (2) density, and (3) velocity. These relationships help in planning, design, and operations of roadway facilities.","According to the passage, which of the following can be difficult to gauge due to the unpredictability of drivers?",Traffic velocity,Roadway planning,Roadway operations,Traffic Flow,4
+1,B,"The passage states that a curry is based on herbs and spices, together with either meat or vegetables.","<prediction>B</prediction>
+                                               
+<explanation>The passage states that a curry is based on herbs and spices, together with either meat or vegetables.</explanation>",1,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""A curry is a dish based on herbs and spices, together with either meat or vegetables. A curry can be either """"dry"""" or """"wet"""" depending on the amount of liquid. In inland regions of Northern India and Pakistan, yogurt is commonly used in curries; in Southern India and some other coastal regions of the subcontinent, coconut milk is commonly used.""
+
+Question: According to the passage, a curry is based around which ingredients?
+
+Options:
+A) Yogurt and water  
+B) Herbs and spices  
+C) Coconut milk and meat  
+D) Vegetables and milk
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""A curry is a dish based on herbs and spices, together with either meat or vegetables. A curry can be either """"dry"""" or """"wet"""" depending on the amount of liquid. In inland regions of Northern India and Pakistan, yogurt is commonly used in curries; in Southern India and some other coastal regions of the subcontinent, coconut milk is commonly used.""","According to the passage, a curry is based around which ingredients?",Yogurt and water,Herbs and spices,Coconut milk and meat,Vegetables and milk,2
+2,B,"The passage states that the Estonian literal language was based on the German alphabet, indicating a direct influence on the Estonian language.","<prediction>B</prediction>
+<explanation>The passage states that the Estonian literal language was based on the German alphabet, indicating a direct influence on the Estonian language.</explanation>",2,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""Around the 15th century, northern Estonia was under great cultural influence of Germany. Some German monks wanted to bring God closer to the native people, so they invented the Estonian literal language. It was based on the German alphabet and one character """"Õ/õ"""" was added. As time passed, many words that were borrowed from German coalesced. This was the beginning of enlightenment.""
+
+Question: The Estonian language was influenced by what?
+
+Options:
+A) The character Õ/õ  
+B) The German alphabet  
+C) German monks  
+D) God
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""Around the 15th century, northern Estonia was under great cultural influence of Germany. Some German monks wanted to bring God closer to the native people, so they invented the Estonian literal language. It was based on the German alphabet and one character """"Õ/õ"""" was added. As time passed, many words that were borrowed from German coalesced. This was the beginning of enlightenment.""",The Estonian language was influenced by what?,The character Õ/õ,The German alphabet,German monks,God,2
+3,D,The police asked the protesters to move back on to the pavement at 11:20 to balance the right to protest with the traffic building up.,"<prediction>D</prediction>
+<explanation>The police asked the protesters to move back on to the pavement at 11:20 to balance the right to protest with the traffic building up.</explanation>",3,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The protest started around 11:00 local time (UTC+1) on Whitehall opposite the police-guarded entrance to Downing Street, the Prime Minister's official residence. Just after 11:00, protesters blocked traffic on the northbound carriage in Whitehall. At 11:20, the police asked the protesters to move back on to the pavement, stating that they needed to balance the right to protest with the traffic building up. Around 11:29, the protest moved up Whitehall, past Trafalgar Square, along the Strand, passing by Aldwych and up Kingsway towards Holborn where the Conservative Party were holding their Spring Forum in the Grand Connaught Rooms hotel.
+
+Question: At what time did the police ask protestors to move in order to avoid further traffic buildup?
+
+Options:
+A) Around 11:00  
+B) At 11:29  
+C) Before 11:00  
+D) At 11:20
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The protest started around 11:00 local time (UTC+1) on Whitehall opposite the police-guarded entrance to Downing Street, the Prime Minister's official residence. Just after 11:00, protesters blocked traffic on the northbound carriage in Whitehall. At 11:20, the police asked the protesters to move back on to the pavement, stating that they needed to balance the right to protest with the traffic building up. Around 11:29, the protest moved up Whitehall, past Trafalgar Square, along the Strand, passing by Aldwych and up Kingsway towards Holborn where the Conservative Party were holding their Spring Forum in the Grand Connaught Rooms hotel.",At what time did the police ask protestors to move in order to avoid further traffic buildup?,Around 11:00,At 11:29,Before 11:00,At 11:20,4
+4,D,"The passage states that research in AI involves making machines to automate tasks that require intelligent behavior, indicating that task automation is the main purpose of AI.","<prediction>D</prediction>
+<explanation>The passage states that research in AI involves making machines to automate tasks that require intelligent behavior, indicating that task automation is the main purpose of AI.</explanation>",4,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Although AI has a strong connotation of science fiction, AI forms a very important branch of computer science, dealing with behavior, learning and intelligent adaptation in a machine. Research in AI involves making machines to automate tasks that require intelligent behavior. Examples include control, planning and scheduling, the ability to answer customer diagnoses and questions, as well as handwriting recognition, voice and face. Such things have become separate disciplines, which focus on providing solutions to real life problems. The AI ​​system is now often used in the fields of economics, medicine, engineering and the military, as has been built in several home computer and video game software applications.
+
+Question: According to the passage, which of the following is an accurate summary of AI’s main purpose?
+
+Options:
+A) Planning  
+B) Voice recognition   
+C) Scheduling  
+D) Task automation
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Although AI has a strong connotation of science fiction, AI forms a very important branch of computer science, dealing with behavior, learning and intelligent adaptation in a machine. Research in AI involves making machines to automate tasks that require intelligent behavior. Examples include control, planning and scheduling, the ability to answer customer diagnoses and questions, as well as handwriting recognition, voice and face. Such things have become separate disciplines, which focus on providing solutions to real life problems. The AI ​​system is now often used in the fields of economics, medicine, engineering and the military, as has been built in several home computer and video game software applications.","According to the passage, which of the following is an accurate summary of AI’s main purpose?",Planning,Voice recognition ,Scheduling,Task automation,4
+5,A,"The passage states that crevasses, which are another term for cracks, may be obscured by snow bridges.","<prediction>A</prediction>
+                                               
+<explanation>The passage states that crevasses, which are another term for cracks, may be obscured by snow bridges.</explanation>",5,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The glaciers are not stable, but flow down the mountain. This will cause cracks, crevasses, which may be obscured by snow bridges. The walls and roofs of ice caves can collapse and cracks can get closed. At the edge of glaciers huge blocks break loose, fall down and perhaps jump or roll farther from the edge.
+
+Question: According to the passage, which of these can be hidden by snow bridges?
+
+Options:
+A) Cracks  
+B) Ice caves  
+C) Walls  
+D) Large blocks
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The glaciers are not stable, but flow down the mountain. This will cause cracks, crevasses, which may be obscured by snow bridges. The walls and roofs of ice caves can collapse and cracks can get closed. At the edge of glaciers huge blocks break loose, fall down and perhaps jump or roll farther from the edge.","According to the passage, which of these can be hidden by snow bridges?",Cracks,Ice caves,Walls,Large blocks,1
+6,A,"The passage states that CCTV cameras would ""send a strong signal"" to abattoir workers that animal welfare is a priority, indicating that their installation could help solidify the importance of animal welfare.","<prediction>A</prediction>
+<explanation>The passage states that CCTV cameras would ""send a strong signal"" to abattoir workers that animal welfare is a priority, indicating that their installation could help solidify the importance of animal welfare.</explanation>",6,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""Animal Liberation and the Royal Society for the Prevention of Cruelty to Animals (RSPCA) are again calling for the mandatory installation of CCTV cameras in all Australian abattoirs. RSPCA New South Wales chief inspector David O'Shannessy told the ABC that surveillance and inspections of abattoirs should be commonplace in Australia. """"The CCTV would certainly send a strong signal to those people working with animals that their welfare is of the highest priority.""""""
+
+Question: According to the passage, what could help solidify the importance of animal welfare to Australian abattoir workers?
+
+Options:
+A) The installation of CCTV cameras   
+B) Mandatory meetings with RSPCA  
+C) Regular abattoir inspections  
+D) Oversight from the ABC
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""Animal Liberation and the Royal Society for the Prevention of Cruelty to Animals (RSPCA) are again calling for the mandatory installation of CCTV cameras in all Australian abattoirs. RSPCA New South Wales chief inspector David O'Shannessy told the ABC that surveillance and inspections of abattoirs should be commonplace in Australia. """"The CCTV would certainly send a strong signal to those people working with animals that their welfare is of the highest priority.""""""","According to the passage, what could help solidify the importance of animal welfare to Australian abattoir workers?",The installation of CCTV cameras ,Mandatory meetings with RSPCA,Regular abattoir inspections,Oversight from the ABC,1
+7,A,"The passage states that one should fall asleep a short time later (10–60 minutes) after awakening, but reading for an hour and a half exceeds this time frame.","<prediction>A</prediction>
+                                               
+<explanation>The passage states that one should fall asleep a short time later (10–60 minutes) after awakening, but reading for an hour and a half exceeds this time frame.</explanation>",7,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Sleep interruption is the process of purposefully awakening during your normal sleep period and falling asleep a short time later (10–60 minutes). This can be easily done by using a relatively quiet alarm clock to bring you to consciousness without fully waking you. If you find yourself resetting the clock in your sleep, it can be placed on the other side of the room, forcing you to get out of bed to turn it off. Other biorhythm-based options involve drinking lots of fluid (particularly water or tea, a known diuretic) prior to sleep, forcing one to get up to urinate.
+
+Question: After purposefully awakening during the normal sleep period, which of these would interfere with the sleep interruption process?
+
+Options:
+A) Reading for an hour and half before falling back to sleep  
+B) Using the bathroom and going right back to bed  
+C) Shutting off the alarm on your nightstand and falling back to sleep twenty minutes later  
+D) Waking up to drink water from a bottle on your nightstand
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Sleep interruption is the process of purposefully awakening during your normal sleep period and falling asleep a short time later (10–60 minutes). This can be easily done by using a relatively quiet alarm clock to bring you to consciousness without fully waking you. If you find yourself resetting the clock in your sleep, it can be placed on the other side of the room, forcing you to get out of bed to turn it off. Other biorhythm-based options involve drinking lots of fluid (particularly water or tea, a known diuretic) prior to sleep, forcing one to get up to urinate.","After purposefully awakening during the normal sleep period, which of these would interfere with the sleep interruption process?",Reading for an hour and half before falling back to sleep,Using the bathroom and going right back to bed,Shutting off the alarm on your nightstand and falling back to sleep twenty minutes later,Waking up to drink water from a bottle on your nightstand,1
+8,D,"Hershey and Chase used phages, or viruses, to implant their own DNA into a bacterium.","<prediction>D</prediction>
+<explanation>Hershey and Chase used phages, or viruses, to implant their own DNA into a bacterium.</explanation>",8,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The Hershey and Chase experiment was one of the leading suggestions that DNA was a genetic material. Hershey and Chase used phages, or viruses, to implant their own DNA into a bacterium. They did two experiments marking either the DNA in the phage with a radioactive phosphorus or the protein of the phage with radioactive sulfur.
+
+Question: What did Hershey and Chase use to implant their DNA? 
+
+Options:
+A) Radioactive phosphorus  
+B) Genetic material  
+C) Radioactive sulfur   
+D) Viruses 
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The Hershey and Chase experiment was one of the leading suggestions that DNA was a genetic material. Hershey and Chase used phages, or viruses, to implant their own DNA into a bacterium. They did two experiments marking either the DNA in the phage with a radioactive phosphorus or the protein of the phage with radioactive sulfur.",What did Hershey and Chase use to implant their DNA? ,Radioactive phosphorus,Genetic material,Radioactive sulfur ,Viruses ,4
+9,D,"The passage states that the iron on the tracks caused more wear on the wooden wheels, leading to their replacement with iron wheels.","<prediction>D</prediction>
+<explanation>The passage states that the iron on the tracks caused more wear on the wooden wheels, leading to their replacement with iron wheels.</explanation>",9,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Wagonways were built in England as early as the 16th Century. Although wagonways merely consisted of parallel planks of wood, they allowed horses pulling them to achieve greater speeds and pull larger loads than on the slightly more rough roads of the day. Crossties were introduced fairly early to hold the tracks in place. Gradually, however, it was realised that tracks would be more efficient if they had a stip of iron on the top. This became common practice, but the iron caused more wear on the wooden wheels of the wagons. Eventually, wooden wheels were replaced by iron wheels. In 1767, the first full-iron rails were introduced.
+
+Question: According to the passage, why were wooden wheels replaced by iron wheels?
+
+Options:
+A) The increased the horses speed  
+B) They were considered more efficient  
+C) They were able to handle larger loads  
+D) They were being worn down by the iron on the tracks
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Wagonways were built in England as early as the 16th Century. Although wagonways merely consisted of parallel planks of wood, they allowed horses pulling them to achieve greater speeds and pull larger loads than on the slightly more rough roads of the day. Crossties were introduced fairly early to hold the tracks in place. Gradually, however, it was realised that tracks would be more efficient if they had a stip of iron on the top. This became common practice, but the iron caused more wear on the wooden wheels of the wagons. Eventually, wooden wheels were replaced by iron wheels. In 1767, the first full-iron rails were introduced.","According to the passage, why were wooden wheels replaced by iron wheels?",The increased the horses speed,They were considered more efficient,They were able to handle larger loads,They were being worn down by the iron on the tracks,4
+10,A,"The passage states that ""The guru is a fundamental aspect of all Indian religions but in Sikhism has taken on an importance that forms the core of Sikh beliefs.""","<prediction>A</prediction>
+<explanation>The passage states that ""The guru is a fundamental aspect of all Indian religions but in Sikhism has taken on an importance that forms the core of Sikh beliefs.""</explanation>",10,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""Sikhism is a religion from the Indian sub-continent. It originated in the Punjab region during the 15th century from a sectarian split within the Hindu tradition. Sikhs consider their faith to be a separate religion from Hinduism though they acknowledge its Hindu roots and traditions. Sikhs call their religion Gurmat, which is Punjabi for """"way of the guru"""". The guru is a fundamental aspect of all Indian religions but in Sikhism has taken on an importance that forms the core of Sikh beliefs. The religion was founded in the 15th century by Guru Nanak (1469–1539). There followed in succession a further nine gurus.""
+
+Question: According to the passage, which of the following is considered a core aspect of the Sikh belief system?
+
+Options:
+A) The concept of the guru  
+B) Hindu traditions   
+C) A refusal to acknowledge other Indian religions  
+D) Speaking the Punjabi language
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""Sikhism is a religion from the Indian sub-continent. It originated in the Punjab region during the 15th century from a sectarian split within the Hindu tradition. Sikhs consider their faith to be a separate religion from Hinduism though they acknowledge its Hindu roots and traditions. Sikhs call their religion Gurmat, which is Punjabi for """"way of the guru"""". The guru is a fundamental aspect of all Indian religions but in Sikhism has taken on an importance that forms the core of Sikh beliefs. The religion was founded in the 15th century by Guru Nanak (1469–1539). There followed in succession a further nine gurus.""","According to the passage, which of the following is considered a core aspect of the Sikh belief system?",The concept of the guru,Hindu traditions ,A refusal to acknowledge other Indian religions,Speaking the Punjabi language,1
+11,C,"The passage mentions that the Il-76 was headed to Irkutsk, had an engine separate on takeoff, and was briefly grounded after an accident, indicating it is a type of aircraft.","<prediction>C</prediction>
+<explanation>The passage mentions that the Il-76 was headed to Irkutsk, had an engine separate on takeoff, and was briefly grounded after an accident, indicating it is a type of aircraft.</explanation>",11,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The aircraft had been headed to Irkutsk and was being operated by interior troops. An inquiry was established to investigate. The Il-76 has been a major component of both the Russian and Soviet military since the 1970s, and had already seen a serious accident in Russia last month. On October 7 an engine separated on takeoff, without injuries. Russia briefly grounded Il-76s after that accident.
+
+Question: What is the II-76?
+
+Options:
+A) A submarine  
+B) A tank  
+C) An aircraft  
+D) A train
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The aircraft had been headed to Irkutsk and was being operated by interior troops. An inquiry was established to investigate. The Il-76 has been a major component of both the Russian and Soviet military since the 1970s, and had already seen a serious accident in Russia last month. On October 7 an engine separated on takeoff, without injuries. Russia briefly grounded Il-76s after that accident.",What is the II-76?,A submarine,A tank,An aircraft,A train,3
+12,D,"The passage states that animals that can injure or kill people by force do not usually qualify as pests, indicating that causing forceful injuries is not typical of pests.","<prediction>D</prediction>
+<explanation>The passage states that animals that can injure or kill people by force do not usually qualify as pests, indicating that causing forceful injuries is not typical of pests.</explanation>",12,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Travellers may encounter animal pests that they are not familiar with in their home regions. Pests can spoil food, cause irritation, or in a worse case cause allergic reactions, spread venom, or transmit infections. Infectious diseases themselves, or dangerous animals that can injure or kill people by force, do not usually qualify as pests.
+
+Question: Which of the following is an animal pest not likely to do?
+
+Options:
+A) Cause a rash  
+B) Irritate allergies  
+C) Spread an infection  
+D) Cause forceful injuries
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Travellers may encounter animal pests that they are not familiar with in their home regions. Pests can spoil food, cause irritation, or in a worse case cause allergic reactions, spread venom, or transmit infections. Infectious diseases themselves, or dangerous animals that can injure or kill people by force, do not usually qualify as pests.",Which of the following is an animal pest not likely to do?,Cause a rash,Irritate allergies,Spread an infection,Cause forceful injuries,4
+13,D,"The passage states that zoom lenses have more focal complexity than prime lenses, so if you're looking for more focal complexity, a zoom lens would be preferable.","<prediction>D</prediction>
+<explanation>The passage states that zoom lenses have more focal complexity than prime lenses, so if you're looking for more focal complexity, a zoom lens would be preferable.</explanation>",13,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The disadvantage of zoom lenses is that the focal complexity and number of lens elements required to achieve a range of focal lengths is much greater than for prime lenses. This is becoming less of an issue as lens manufacturers achieve higher standards in lens production. This has allowed zoom lenses to produce pictures of a quality comparable to that achieved by lenses with fixed focal length. Another disadvantage of zoom lenses is that the maximum aperture (the speed) of the lens is usually lower. This makes inexpensive zoom lenses hard to use in low-light conditions without a flash.
+
+Question: Based on the information in the passage, when might a zoom lens be preferable to a prime lens?
+
+Options:
+A) If a high maximum aperture is a priority  
+B) If you want less lens elements  
+C) If you don’t want to use a flash in darker settings  
+D) If you’re looking for more focal complexity
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+",The disadvantage of zoom lenses is that the focal complexity and number of lens elements required to achieve a range of focal lengths is much greater than for prime lenses. This is becoming less of an issue as lens manufacturers achieve higher standards in lens production. This has allowed zoom lenses to produce pictures of a quality comparable to that achieved by lenses with fixed focal length. Another disadvantage of zoom lenses is that the maximum aperture (the speed) of the lens is usually lower. This makes inexpensive zoom lenses hard to use in low-light conditions without a flash.,"Based on the information in the passage, when might a zoom lens be preferable to a prime lens?",If a high maximum aperture is a priority,If you want less lens elements,If you don’t want to use a flash in darker settings,If you’re looking for more focal complexity,4
+14,C,"The passage mentions that Kerala's temple festivals feature a procession of decorated elephants, indicating that they can be seen during these events.","<prediction>C</prediction>
+<explanation>The passage mentions that Kerala's temple festivals feature a procession of decorated elephants, indicating that they can be seen during these events.</explanation>",14,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Most of the temples do have an Annual festival starting from November end to Mid of May, which varies according to each temple's annual calendar. Most of the temple festivals is celebrated as part of temple's anniversary or presiding deity's birthday or any other major event associated with the temple. Kerala's temple festivals are very interesting to see, with regular procession of decorated elephants, temple orchestra and other festivities.
+
+Question: Where can decorated elephants be seen?
+
+Options:
+A) Everywhere from end of November to mid-May  
+B) In temples  
+C) In processions at temple festivals  
+D) On the streets of Kerala
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Most of the temples do have an Annual festival starting from November end to Mid of May, which varies according to each temple's annual calendar. Most of the temple festivals is celebrated as part of temple's anniversary or presiding deity's birthday or any other major event associated with the temple. Kerala's temple festivals are very interesting to see, with regular procession of decorated elephants, temple orchestra and other festivities.",Where can decorated elephants be seen?,Everywhere from end of November to mid-May,In temples,In processions at temple festivals,On the streets of Kerala,3
+15,B,"Dr. Ur is skeptical about whether diabetes can be cured, as stated in the passage.","<prediction>B</prediction>
+
+<explanation>Dr. Ur is skeptical about whether diabetes can be cured, as stated in the passage.</explanation>",15,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: """"""We now have 4-month-old mice that are non-diabetic that used to be diabetic,"""" he added. Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days. Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.""
+
+Question: According to the passage, what is Dr. Ur skeptical about?
+
+Options:
+A) If the findings are relevant for people with Type 1 diabetes  
+B) If a cure is possible  
+C) The opinions of other experts regarding a cure  
+D) If the non-diabetic mice will remain that way
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""""""We now have 4-month-old mice that are non-diabetic that used to be diabetic,"""" he added. Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days. Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.""","According to the passage, what is Dr. Ur skeptical about?",If the findings are relevant for people with Type 1 diabetes,If a cure is possible,The opinions of other experts regarding a cure,If the non-diabetic mice will remain that way,2
+16,A,"The passage states that Eskimo tribes were already living in Greenland when Erik the Red arrived, indicating they were the first to settle there.","<prediction>A</prediction>
+<explanation>The passage states that Eskimo tribes were already living in Greenland when Erik the Red arrived, indicating they were the first to settle there.</explanation>",16,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Greenland was settled sparsely. In the Norse sagas they say that Erik the Red was exiled from Iceland for murder, and when travelling further west, found Greenland and named it Greenland. But regardless of his discovery, Eskimo tribes were already living there at the time. Though each country was 'Scandinavian', there were many differences between the people, kings, customs and history of Denmark, Sweden, Norway and Iceland.
+
+Question: Who settled in Greenland first?
+
+Options:
+A) Eskimo tribes  
+B) Norwegians  
+C) Erik the Red  
+D) Swedes 
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Greenland was settled sparsely. In the Norse sagas they say that Erik the Red was exiled from Iceland for murder, and when travelling further west, found Greenland and named it Greenland. But regardless of his discovery, Eskimo tribes were already living there at the time. Though each country was 'Scandinavian', there were many differences between the people, kings, customs and history of Denmark, Sweden, Norway and Iceland.",Who settled in Greenland first?,Eskimo tribes,Norwegians,Erik the Red,Swedes ,1
+17,C,"The passage states that Fred is ""only the third major hurricane on record east of 35°W"", indicating that there were two major storms prior to Fred.","<prediction>C</prediction>
+<explanation>The passage states that Fred is ""only the third major hurricane on record east of 35°W"", indicating that there were two major storms prior to Fred.</explanation>",17,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The storm, situated about 645 miles (1040 km) west of the Cape Verde islands, is likely to dissipate before threatening any land areas, forecasters say. Fred currently has winds of 105 miles per hour (165 km/h) and is moving towards the northwest. Fred is the strongest tropical cyclone ever recorded so far south and east in the Atlantic since the advent of satellite imagery, and only the third major hurricane on record east of 35°W.
+
+Question: Prior to Fred, how many major storms had been recorded east of 35°W?
+
+Options:
+A) None  
+B) Three  
+C) Two  
+D) One
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The storm, situated about 645 miles (1040 km) west of the Cape Verde islands, is likely to dissipate before threatening any land areas, forecasters say. Fred currently has winds of 105 miles per hour (165 km/h) and is moving towards the northwest. Fred is the strongest tropical cyclone ever recorded so far south and east in the Atlantic since the advent of satellite imagery, and only the third major hurricane on record east of 35°W.","Prior to Fred, how many major storms had been recorded east of 35°W?",None,Three,Two,One,3
+18,C,"Alonso ended his race after his pit-stop, and Michael Schumacher ended his race not long after Alonso, indicating Alonso stopped before Schumacher.","<prediction>C</prediction>
+<explanation>Alonso ended his race after his pit-stop, and Michael Schumacher ended his race not long after Alonso, indicating Alonso stopped before Schumacher.</explanation>",18,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Giancarlo Fisichella lost control of his car and ended the race very soon after the start. His teammate Fernando Alonso was in the lead for most of the race, but ended it right after his pit-stop, probably because a badly tucked right front wheel. Michael Schumacher ended his race not long after Alonso, because of the suspension damage in the numerous battles during the race.
+
+Question: When did Alonso end his race?
+
+Options:
+A) After Schumacher damaged his front wheel  
+B) Fisichella lost control of his car  
+C) After Schumacher ended his own race  
+D) Before taking the lead
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Giancarlo Fisichella lost control of his car and ended the race very soon after the start. His teammate Fernando Alonso was in the lead for most of the race, but ended it right after his pit-stop, probably because a badly tucked right front wheel. Michael Schumacher ended his race not long after Alonso, because of the suspension damage in the numerous battles during the race.",When did Alonso end his race?,After Schumacher damaged his front wheel,Fisichella lost control of his car,After Schumacher ended his own race,Before taking the lead,2
+19,B,"The passage states that after the Revolution, army rankings were no longer based on class, and occupations were open to all male applicants, indicating a shift away from class-based success.","<prediction>B</prediction>
+<explanation>The passage states that after the Revolution, army rankings were no longer based on class, and occupations were open to all male applicants, indicating a shift away from class-based success.</explanation>",19,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: There are a lot of social and political effects such as the use of metric system, a shift from absolutism to republicanism, nationalism and the belief the country belongs to the people not to one sole ruler. Also after the Revolution occupations were open to all male applicants allowing the most ambitious and successful to succeed. Same goes for the military because instead of army rankings being based on class they were now based on cailaber. The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.
+
+Question: Following the French Revolution, success in the military and other occupations was less likely to be based on what?
+
+Options:
+A) Achievement  
+B) Class  
+C) Ambition  
+D) Caliber
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","There are a lot of social and political effects such as the use of metric system, a shift from absolutism to republicanism, nationalism and the belief the country belongs to the people not to one sole ruler. Also after the Revolution occupations were open to all male applicants allowing the most ambitious and successful to succeed. Same goes for the military because instead of army rankings being based on class they were now based on cailaber. The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.","Following the French Revolution, success in the military and other occupations was less likely to be based on what?",Achievement,Class,Ambition,Caliber,2
+20,A,"The passage states that Latin is often used in religious ceremonies, indicating its specific use in Vatican City.","<prediction>A</prediction>
+<explanation>The passage states that Latin is often used in religious ceremonies, indicating its specific use in Vatican City.</explanation>",20,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Vatican City's population is around 800. It is the smallest independent country in the world and the country with the lowest population. Vatican City uses Italian in its legislation and official communications. Italian is also the everyday language used by most of those who work in the state while Latin is often used in religious ceremonies. All citizens of Vatican City are Roman Catholic.
+
+Question: What is the Latin language used for in Vatican City?
+
+Options:
+A) Religious ceremonies  
+B) Everyday communication  
+C) Legislation  
+D) Official communication
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+",Vatican City's population is around 800. It is the smallest independent country in the world and the country with the lowest population. Vatican City uses Italian in its legislation and official communications. Italian is also the everyday language used by most of those who work in the state while Latin is often used in religious ceremonies. All citizens of Vatican City are Roman Catholic.,What is the Latin language used for in Vatican City?,Religious ceremonies,Everyday communication,Legislation,Official communication,1
+21,B,"The passage states that the home of an old love legend is Callejon del Beso, not Jardín de la Unión.","<prediction>B</prediction>
+<explanation>The passage states that the home of an old love legend is Callejon del Beso, not Jardín de la Unión.</explanation>",21,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Jardín de la Unión. This space was built as the atrium for a 17th-century convent, of which the Templo de San Diego is the sole surviving building. It now functions as the central plaza, and always has a lot of things going on, day and night. There are a number of restaurants surrounding the garden, and in the afternoons and evening there free concerts are often given from the central gazebo. Callejon del Beso (Alley of the Kiss). Two balconies separated by only 69 centimeters is home of an old love legend. For a few pennies some children will tell you the story.
+
+Question: According to the passage, which of the following is not found in Jardín de la Unión?
+
+Options:
+A) A central gazebo with concerts  
+B) The home of an old love story  
+C) Garden-facing restaurants   
+D) An old convent building
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Jardín de la Unión. This space was built as the atrium for a 17th-century convent, of which the Templo de San Diego is the sole surviving building. It now functions as the central plaza, and always has a lot of things going on, day and night. There are a number of restaurants surrounding the garden, and in the afternoons and evening there free concerts are often given from the central gazebo. Callejon del Beso (Alley of the Kiss). Two balconies separated by only 69 centimeters is home of an old love legend. For a few pennies some children will tell you the story.","According to the passage, which of the following is not found in Jardín de la Unión?",A central gazebo with concerts,The home of an old love story,Garden-facing restaurants ,An old convent building,2
+22,B,"The passage states that permits can be secured directly from the Ranger Station in Puerto Jiménez and that they do not accept credit cards, implying that cash is an accepted payment method.","<prediction>B</prediction>
+<explanation>The passage states that permits can be secured directly from the Ranger Station in Puerto Jiménez and that they do not accept credit cards, implying that cash is an accepted payment method.</explanation>",22,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Permits must be reserved in advance. You must have a permit to stay overnight at Sirena. Sirena is the only ranger station that offers dormitory lodging and hot meals in addition to camping. La Leona, San Pedrillo, and Los Patos offer only camping with no food service. It is possible to secure park permits directly from the Ranger Station in Puerto Jiménez, but they do not accept credit cards The Park Service (MINAE) does not issue park permits more than one month in advance of anticipated arrival. CafeNet El Sol offers a reservation service for a fee of US$30, or $10 for one-day passes; details on their Corcovado page.
+
+Question: According to the passage, where could you reserve a park permit if you wanted to use cash instead of credit?
+
+Options:
+A) Sirena  
+B) Puerto Jiménez  
+C) CafeNet El Sol  
+D) La Leona
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Permits must be reserved in advance. You must have a permit to stay overnight at Sirena. Sirena is the only ranger station that offers dormitory lodging and hot meals in addition to camping. La Leona, San Pedrillo, and Los Patos offer only camping with no food service. It is possible to secure park permits directly from the Ranger Station in Puerto Jiménez, but they do not accept credit cards The Park Service (MINAE) does not issue park permits more than one month in advance of anticipated arrival. CafeNet El Sol offers a reservation service for a fee of US$30, or $10 for one-day passes; details on their Corcovado page.","According to the passage, where could you reserve a park permit if you wanted to use cash instead of credit?",Sirena,Puerto Jiménez,CafeNet El Sol,La Leona,2
+23,C,"The passage states that the bill applies to violent video games sold ""in the state of California"", indicating its jurisdiction is limited to within California.","<prediction>C</prediction>
+<explanation>The passage states that the bill applies to violent video games sold ""in the state of California"", indicating its jurisdiction is limited to within California.</explanation>",23,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors. The bill requires violent video games sold in the state of California to be labeled with a decal reading """"18"""" and makes their sale to a minor punishable by a fine of $1000 per offense.""
+
+Question: What isn’t a part of the bill signed by Governor Arnold Schwarzenegger?
+
+Options:
+A) A ban on the sale or rental of violent video games to minors throughout California  
+B) Monetary fines for offenders  
+C) A ban on the sale or rental of violent video games to minors outside of California  
+D) A decal requirement on violent games
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors. The bill requires violent video games sold in the state of California to be labeled with a decal reading """"18"""" and makes their sale to a minor punishable by a fine of $1000 per offense.""",What isn’t a part of the bill signed by Governor Arnold Schwarzenegger?,A ban on the sale or rental of violent video games to minors throughout California,Monetary fines for offenders,A ban on the sale or rental of violent video games to minors outside of California,A decal requirement on violent games,3
+24,C,"The passage states that in the PALM trial, ZMapp ""served as a control, meaning scientists used it as a baseline and compared the three other treatments to it,"" indicating that ZMapp was used as the trial's baseline.","<prediction>C</prediction>
+<explanation>The passage states that in the PALM trial, ZMapp ""served as a control, meaning scientists used it as a baseline and compared the three other treatments to it,"" indicating that ZMapp was used as the trial's baseline.</explanation>",24,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: While one experimental vaccine appears able to reduce Ebola mortality, up until now, no drugs have been clearly demonstrated suitable for treating existing infection. One antibody cocktail, ZMapp, initially showed promise in the field, but formal studies indicated it had less benefit than sought in preventing death. In the PALM trial, ZMapp served as a control, meaning scientists used it as a baseline and compared the three other treatments to it.
+
+Question: Which of the following statements accurately describes the PALM trial?
+
+Options:
+A) The studies showed it may have more benefits than previously thought  
+B) A control drug was compared to three other treatments, one of which was ZMapp  
+C) ZMapp was used as the trial’s baseline  
+D) It was shown to be effective in treating existing conditions
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","While one experimental vaccine appears able to reduce Ebola mortality, up until now, no drugs have been clearly demonstrated suitable for treating existing infection. One antibody cocktail, ZMapp, initially showed promise in the field, but formal studies indicated it had less benefit than sought in preventing death. In the PALM trial, ZMapp served as a control, meaning scientists used it as a baseline and compared the three other treatments to it.",Which of the following statements accurately describes the PALM trial?,The studies showed it may have more benefits than previously thought,"A control drug was compared to three other treatments, one of which was ZMapp",ZMapp was used as the trial’s baseline,It was shown to be effective in treating existing conditions,3
+25,D,"South Africa's performance improved as the tournament progressed, indicating that their game began to improve over time as they played more matches.","<prediction>D</prediction>
+<explanation>South Africa's performance improved as the tournament progressed, indicating that their game began to improve over time as they played more matches.</explanation>",25,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The games kicked off at 10:00am with great weather and apart from mid morning drizzle which quickly cleared up, it was a perfect day for 7's rugby. Tournament top seeds South Africa started on the right note when they had a comfortable 26 - 00 win against 5th seeded Zambia. Looking decidedly rusty in the game against their southern sisters, South Africa however steadily improved as the tournament progressed. Their disciplined defence, ball handling skills and excellent team work made them stand out and it was clear that this was the team to beat.
+
+Question: According to the passage, when did South Africa’s game begin to improve?
+
+Options:
+A) Around 10:00 am  
+B) After tightening the defense  
+C) After losing to Zambia  
+D) As the tournament went on
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The games kicked off at 10:00am with great weather and apart from mid morning drizzle which quickly cleared up, it was a perfect day for 7's rugby. Tournament top seeds South Africa started on the right note when they had a comfortable 26 - 00 win against 5th seeded Zambia. Looking decidedly rusty in the game against their southern sisters, South Africa however steadily improved as the tournament progressed. Their disciplined defence, ball handling skills and excellent team work made them stand out and it was clear that this was the team to beat.","According to the passage, when did South Africa’s game begin to improve?",Around 10:00 am,After tightening the defense,After losing to Zambia,As the tournament went on,4
+26,B,"The passage states that endurance ""becomes an absolute necessity"" for a half-miler and must be ""cultivated at all hazards"", indicating its utmost importance.","<prediction>B</prediction>
+<explanation>The passage states that endurance ""becomes an absolute necessity"" for a half-miler and must be ""cultivated at all hazards"", indicating its utmost importance.</explanation>",26,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: With the change from the quarter to the half mile run, speed becomes of much less importance and endurance becomes an absolute necessity. Of course a first-class half-miler, a man who can beat two minutes, must be possessed of a fair amount of speed, but endurance must be cultivated at all hazards. Some cross country running during the winter, combined with gymnasium work for the upper part of the body, is the best preparation for the running season.
+
+Question: According to the passage, which of the following is of utmost importance for a first-class half-mile runner?
+
+Options:
+A) Practicing cross country running during the winter months  
+B) Cultivating endurance over speed  
+C) Clocking in under two minutes  
+D) Cultivating speed over endurance
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","With the change from the quarter to the half mile run, speed becomes of much less importance and endurance becomes an absolute necessity. Of course a first-class half-miler, a man who can beat two minutes, must be possessed of a fair amount of speed, but endurance must be cultivated at all hazards. Some cross country running during the winter, combined with gymnasium work for the upper part of the body, is the best preparation for the running season.","According to the passage, which of the following is of utmost importance for a first-class half-mile runner?",Practicing cross country running during the winter months,Cultivating endurance over speed,Clocking in under two minutes,Cultivating speed over endurance,2
+27,B,The passage states that the marble sculptures of doves are located in the churchyard of the village of Haldarsvík.,"<prediction>B</prediction>
+<explanation>The passage states that the marble sculptures of doves are located in the churchyard of the village of Haldarsvík.</explanation>",27,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The village of Haldarsvík offer views of the nearby island Eysturoy and has an unusual octagonal church. In the churchyard, there are interesting marble sculptures of doves over some tombs. It's worth half an hour to stroll about the intriguing village.
+
+Question: Where are the dove sculptures located?
+
+Options:
+A) A half an hour from the village  
+B) In the churchyard  
+C) On the island of Eysturoy  
+D) Inside the church
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The village of Haldarsvík offer views of the nearby island Eysturoy and has an unusual octagonal church. In the churchyard, there are interesting marble sculptures of doves over some tombs. It's worth half an hour to stroll about the intriguing village.",Where are the dove sculptures located?,A half an hour from the village,In the churchyard,On the island of Eysturoy,Inside the church,2
+28,C,The passage states that the White Sea–Baltic Canal connects the Arctic Ocean to the Baltic Sea.,"<prediction>C</prediction>
+<explanation>The passage states that the White Sea–Baltic Canal connects the Arctic Ocean to the Baltic Sea.</explanation>",28,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Vikings used the Russian waterways to get to the Black Sea and Caspian Sea. Parts of these routes can still be used. Check possible need for special permits, which may be difficult to get. The White Sea–Baltic Canal connects the Arctic Ocean to the Baltic Sea, via Lake Onega, Lake Ladoga and Saint Petersburg, mostly by rivers and lakes. Lake Onega is also connected to Volga, so coming from the Caspian Sea through Russia is still possible.
+
+Question: What does the White Sea–Baltic Canal connect?
+
+Options:
+A) Black Sea and Caspian Sea  
+B) Lake Onega and River Volga  
+C) Arctic Ocean and Baltic Sea  
+D) Southern Ocean and Red Sea
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Vikings used the Russian waterways to get to the Black Sea and Caspian Sea. Parts of these routes can still be used. Check possible need for special permits, which may be difficult to get. The White Sea–Baltic Canal connects the Arctic Ocean to the Baltic Sea, via Lake Onega, Lake Ladoga and Saint Petersburg, mostly by rivers and lakes. Lake Onega is also connected to Volga, so coming from the Caspian Sea through Russia is still possible.",What does the White Sea–Baltic Canal connect?,Black Sea and Caspian Sea,Lake Onega and River Volga,Arctic Ocean and Baltic Sea,Southern Ocean and Red Sea,3
+29,C,"The passage describes Karenia brevis as a ""single-celled marine organism"", indicating it is not multi-celled.","<prediction>C</prediction>
+<explanation>The passage describes Karenia brevis as a ""single-celled marine organism"", indicating it is not multi-celled.</explanation>",29,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Red tide is caused by a higher than normal concentration of Karenia brevis, a naturally-occurring single-celled marine organism. Natural factors can intersect to produce ideal conditions, allowing this algae to increase in number dramatically. The algae produces a neurotoxin that can disable nerves in both humans and fish. Fish often die because of the high concentrations of the toxin in the waters. Humans can be affected by breathing affected water taken into the air by wind and waves.
+
+Question: Which of the following is not considered a trait of Karenia brevis?
+
+Options:
+A) It’s a type of algae  
+B) It can disable the nerves of humans  
+C) It’s multi-celled  
+D) It occurs naturally
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Red tide is caused by a higher than normal concentration of Karenia brevis, a naturally-occurring single-celled marine organism. Natural factors can intersect to produce ideal conditions, allowing this algae to increase in number dramatically. The algae produces a neurotoxin that can disable nerves in both humans and fish. Fish often die because of the high concentrations of the toxin in the waters. Humans can be affected by breathing affected water taken into the air by wind and waves.",Which of the following is not considered a trait of Karenia brevis?,It’s a type of algae,It can disable the nerves of humans,It’s multi-celled,It occurs naturally,3
+30,B,The passage states that herbivores travel from the northern hills towards the southern plains in search of rains.,"<prediction>B</prediction>
+<explanation>The passage states that herbivores travel from the northern hills towards the southern plains in search of rains.</explanation>",30,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Every year around October nearly 1.5 million herbivores travel towards the southern plains, crossing the Mara River, from the northern hills for the rains. And then back to the north through the west, once again crossing the Mara river, after the rains in around April. The Serengeti region contains the Serengeti National Park, the Ngorongoro Conservation Area and Maswa Game Reserve in Tanzania and the Maasai Mara National Reserve in Kenya.
+
+Question: According to the passage, where do herbivores travel from in pursuit of the rains?
+
+Options:
+A) The western plains  
+B) The northern hills  
+C) The southern plains  
+D) The western hills
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Every year around October nearly 1.5 million herbivores travel towards the southern plains, crossing the Mara River, from the northern hills for the rains. And then back to the north through the west, once again crossing the Mara river, after the rains in around April. The Serengeti region contains the Serengeti National Park, the Ngorongoro Conservation Area and Maswa Game Reserve in Tanzania and the Maasai Mara National Reserve in Kenya.","According to the passage, where do herbivores travel from in pursuit of the rains?",The western plains,The northern hills,The southern plains,The western hills,2
+31,C,"The passage states that families with children are a rare sight in hostels, implying that guests traveling with small children are unlikely to be found.","<prediction>C</prediction>
+<explanation>The passage states that families with children are a rare sight in hostels, implying that guests traveling with small children are unlikely to be found.</explanation>",31,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Hostels cater primarily to young people – a typical guest is in their twenties – but you can often find older travellers there too. Families with children are a rare sight, but some hostels do allow them in private rooms.
+
+Question: According to the passage, which type of guest is least likely to be found in a shared hostel room?
+
+Options:
+A) A guest in their early twenties  
+B) A guest traveling solo  
+C) A guest traveling with small children  
+D) A guest in their mid-thirties
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Hostels cater primarily to young people – a typical guest is in their twenties – but you can often find older travellers there too. Families with children are a rare sight, but some hostels do allow them in private rooms.","According to the passage, which type of guest is least likely to be found in a shared hostel room?",A guest in their early twenties,A guest traveling solo,A guest traveling with small children,A guest in their mid-thirties,3
+32,D,"The chief inspector stated that surveillance and inspections of abattoirs should be commonplace, indicating that inspections should be standard for abattoirs.","<prediction>D</prediction>
+<explanation>The chief inspector stated that surveillance and inspections of abattoirs should be commonplace, indicating that inspections should be standard for abattoirs.</explanation>",32,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""Animal Liberation and the Royal Society for the Prevention of Cruelty to Animals (RSPCA) are again calling for the mandatory installation of CCTV cameras in all Australian abattoirs. RSPCA New South Wales chief inspector David O'Shannessy told the ABC that surveillance and inspections of abattoirs should be commonplace in Australia. """"The CCTV would certainly send a strong signal to those people working with animals that their welfare is of the highest priority.""""""
+
+Question: According to a chief inspector for the RSPCA, inspections should be standard for which of the following?
+
+Options:
+A) CCTV cameras  
+B) Anyone working with animals  
+C) Surveillance installations  
+D) Abattoirs
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""Animal Liberation and the Royal Society for the Prevention of Cruelty to Animals (RSPCA) are again calling for the mandatory installation of CCTV cameras in all Australian abattoirs. RSPCA New South Wales chief inspector David O'Shannessy told the ABC that surveillance and inspections of abattoirs should be commonplace in Australia. """"The CCTV would certainly send a strong signal to those people working with animals that their welfare is of the highest priority.""""""","According to a chief inspector for the RSPCA, inspections should be standard for which of the following?",CCTV cameras,Anyone working with animals,Surveillance installations,Abattoirs,4
+33,D,"The passage directly states that CowParade is ""the world's largest public art event"".","<prediction>D</prediction>
+<explanation>The passage directly states that CowParade is ""the world's largest public art event"".</explanation>",33,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The artistic event is also part of a campaign by the Bucharest City Hall that seeks to relaunch the image of the Romanian capital as a creative and colourful metropolis. The city will be the first in southeastern Europe to host CowParade, the world's largest public art event, between June and August this year.
+
+Question: Which of the following statements accurately describes CowParade?
+
+Options:
+A) It only takes place in cities that are considered “creative”   
+B) It was created by Bucharest City Hall  
+C) It’s an art event held in the summer throughout southeastern Europe  
+D) It’s the largest public art event in the world
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The artistic event is also part of a campaign by the Bucharest City Hall that seeks to relaunch the image of the Romanian capital as a creative and colourful metropolis. The city will be the first in southeastern Europe to host CowParade, the world's largest public art event, between June and August this year.",Which of the following statements accurately describes CowParade?,It only takes place in cities that are considered “creative” ,It was created by Bucharest City Hall,It’s an art event held in the summer throughout southeastern Europe,It’s the largest public art event in the world,4
+34,C,"The passage states that the U.S. received information from ""an undisclosed source"" regarding the planned attacks.","<prediction>C</prediction>
+<explanation>The passage states that the U.S. received information from ""an undisclosed source"" regarding the planned attacks.</explanation>",34,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""The United States embassy located in Nairobi, Kenya has issued a warning that """"extremists from Somalia"""" are planning to launch suicide bomb attacks in Kenya and Ethiopia. The U.S. says it has received information from an undisclosed source that specifically mentions the use of suicide bombers to will blow up """"prominent landmarks"""" in Ethiopia and Kenya.""
+
+Question: According to the passage, who gave the United States intel about possible attacks?
+
+Options:
+A) Somali extremists   
+B) The embassy of Ethiopia  
+C) An undisclosed source  
+D) A source in Kenya
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""The United States embassy located in Nairobi, Kenya has issued a warning that """"extremists from Somalia"""" are planning to launch suicide bomb attacks in Kenya and Ethiopia. The U.S. says it has received information from an undisclosed source that specifically mentions the use of suicide bombers to will blow up """"prominent landmarks"""" in Ethiopia and Kenya.""","According to the passage, who gave the United States intel about possible attacks?",Somali extremists ,The embassy of Ethiopia,An undisclosed source,A source in Kenya,3
+35,D,"The passage states that ""no established nation - not even Armenia - officially recognizes"" the new republic created in the Nagorno-Karabakh region.","<prediction>D</prediction>
+<explanation>The passage states that ""no established nation - not even Armenia - officially recognizes"" the new republic created in the Nagorno-Karabakh region.</explanation>",35,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: In 1994, the ethnically Armenian Nagorno-Karabakh region of Azerbaijan waged war against the Azeris. With Armenian backing, a new republic was created. However, no established nation - not even Armenia - officially recognizes it. Diplomatic arguments over the region continue to mar relations between Armenia and Azerbaijan.
+
+Question: What is not recognized by Armenia?
+
+Options:
+A) The Nagorno-Karabakh region  
+B) The war against the Azeris  
+C) Azerbaijan’s diplomatic arguments  
+D) The new republic
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","In 1994, the ethnically Armenian Nagorno-Karabakh region of Azerbaijan waged war against the Azeris. With Armenian backing, a new republic was created. However, no established nation - not even Armenia - officially recognizes it. Diplomatic arguments over the region continue to mar relations between Armenia and Azerbaijan.",What is not recognized by Armenia?,The Nagorno-Karabakh region,The war against the Azeris,Azerbaijan’s diplomatic arguments,The new republic,4
+36,B,"The passage states that students can submit questions to instructors at any time, implying that they don't have to wait for a face-to-face meeting, making face-to-face access at any time not a benefit of asynchronous communication.","<prediction>B</prediction>
+<explanation>The passage states that students can submit questions to instructors at any time, implying that they don't have to wait for a face-to-face meeting, making face-to-face access at any time not a benefit of asynchronous communication.</explanation>",36,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Asynchronous communication encourages time for reflection and reaction to others. It allows students the ability to work at their own pace and control the pace of instructional information. In addition, there are fewer time restrictions with the possibility of flexible working hours. (Bremer, 1998) The use of the Internet and the World Wide Web allows learners to have access to information at all times. Students can also submit questions to instructors at any time of day and expect reasonably quick responses, rather than waiting until the next face-to-face meeting.
+
+Question: Which of the following is not a benefit of asynchronous communication for students? 
+
+Options:
+A) The use of internet as a resource  
+B) Face-to-face access to instructors at any time of day  
+C) Flexible working hours  
+D) Pace control
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Asynchronous communication encourages time for reflection and reaction to others. It allows students the ability to work at their own pace and control the pace of instructional information. In addition, there are fewer time restrictions with the possibility of flexible working hours. (Bremer, 1998) The use of the Internet and the World Wide Web allows learners to have access to information at all times. Students can also submit questions to instructors at any time of day and expect reasonably quick responses, rather than waiting until the next face-to-face meeting.",Which of the following is not a benefit of asynchronous communication for students? ,The use of internet as a resource,Face-to-face access to instructors at any time of day,Flexible working hours,Pace control,2
+37,B,"The passage states that 4-month-old mice that used to be diabetic are now non-diabetic, which directly relates to the research findings.","<prediction>B</prediction>
+<explanation>The passage states that 4-month-old mice that used to be diabetic are now non-diabetic, which directly relates to the research findings.</explanation>",37,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: """"""We now have 4-month-old mice that are non-diabetic that used to be diabetic,"""" he added. Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days. Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.""
+
+Question: What is true about the the research done by Dr. Ehud Ur?
+
+Options:
+A) The results might be beneficial to patients with pre-existing Type 1 diabetes  
+B) Some previously diabetic mice are no longer diabetic  
+C) He is optimistic that the findings could lead to a cure  
+D) Some non-diabetic mice are now diabetic
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""""""We now have 4-month-old mice that are non-diabetic that used to be diabetic,"""" he added. Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days. Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.""",What is true about the the research done by Dr. Ehud Ur?,The results might be beneficial to patients with pre-existing Type 1 diabetes,Some previously diabetic mice are no longer diabetic,He is optimistic that the findings could lead to a cure,Some non-diabetic mice are now diabetic,2
+38,B,"The passage states that the lunar probe ""successfully crash landed near the Moon's south pole"", indicating that despite being a crash landing, it was considered a success.","<prediction>B</prediction>
+                                               
+<explanation>The passage states that the lunar probe ""successfully crash landed near the Moon's south pole"", indicating that despite being a crash landing, it was considered a success.</explanation>",38,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The unmanned lunar orbiter Chandrayaan-1 ejected its Moon Impact Probe (MIP), which hurtled across the surface of the Moon at 1.5 kilometres per second (3000 miles per hour), and successfully crash landed near the Moon's south pole. Besides carrying three important scientific instruments, the lunar probe also carried the image of the Indian national flag, painted on all sides.
+
+Question: Which of the following statements accurately describes the lunar probe?
+
+Options:
+A) It landed near the north pole of the Moon  
+B) Its crash landing was a success  
+C) It was ejected from a manned orbiter  
+D) It was carrying two crucial instruments
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The unmanned lunar orbiter Chandrayaan-1 ejected its Moon Impact Probe (MIP), which hurtled across the surface of the Moon at 1.5 kilometres per second (3000 miles per hour), and successfully crash landed near the Moon's south pole. Besides carrying three important scientific instruments, the lunar probe also carried the image of the Indian national flag, painted on all sides.",Which of the following statements accurately describes the lunar probe?,It landed near the north pole of the Moon,Its crash landing was a success,It was ejected from a manned orbiter,It was carrying two crucial instruments,2
+39,D,"The passage states that 23,764 square kilometres of Turkey's area are in Europe.","<prediction>D</prediction>
+<explanation>The passage states that 23,764 square kilometres of Turkey's area are in Europe.</explanation>",39,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: European Turkey (eastern Thrace or Rumelia in the Balkan peninsula) includes 3% of the country. The territory of Turkey is more than 1,600 kilometres (1,000 mi) long and 800 km (500 mi) wide, with a roughly rectangular shape. Turkey's area, including lakes, occupies 783,562 square kilometres (300,948 sq mi), of which 755,688 square kilometres (291,773 sq mi) are in south west Asia and 23,764 square kilometres (9,174 sq mi) in Europe. Turkey's area makes it the world's 37th-largest country, and is about the size of Metropolitan France and the United Kingdom combined. Turkey is encircled by seas on three sides: the Aegean Sea to the west, the Black Sea to the north and the Mediterranean Sea to the south.
+
+Question: How many square kilometers of Turkey’s total area are in Europe?
+
+Options:
+A) 9174  
+B) 755688  
+C) 1600  
+D) 23764
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","European Turkey (eastern Thrace or Rumelia in the Balkan peninsula) includes 3% of the country. The territory of Turkey is more than 1,600 kilometres (1,000 mi) long and 800 km (500 mi) wide, with a roughly rectangular shape. Turkey's area, including lakes, occupies 783,562 square kilometres (300,948 sq mi), of which 755,688 square kilometres (291,773 sq mi) are in south west Asia and 23,764 square kilometres (9,174 sq mi) in Europe. Turkey's area makes it the world's 37th-largest country, and is about the size of Metropolitan France and the United Kingdom combined. Turkey is encircled by seas on three sides: the Aegean Sea to the west, the Black Sea to the north and the Mediterranean Sea to the south.",How many square kilometers of Turkey’s total area are in Europe?,9174,755688,1600,23764,4
+40,D,The passage states that the presence of an open container of medication or toxic household chemicals is the best indication of internal poisoning.,"<prediction>D</prediction>
+<explanation>The passage states that the presence of an open container of medication or toxic household chemicals is the best indication of internal poisoning.</explanation>",40,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Internal poisoning may not be immediately apparent. Symptoms, such as vomiting are sufficiently general that an immediate diagnosis cannot be made. The best indication of internal poisoning may be the presence of an open container of medication or toxic household chemicals. Check the label for specific first aid instructions for that specific poison.
+
+Question: According to the passage, which of the following would be the strongest indicator of internal poisoning?
+
+Options:
+A) Nausea and fever   
+B) Vomiting and sweating  
+C) Severe cramping and stomach pain  
+D) A prescription pill bottle
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Internal poisoning may not be immediately apparent. Symptoms, such as vomiting are sufficiently general that an immediate diagnosis cannot be made. The best indication of internal poisoning may be the presence of an open container of medication or toxic household chemicals. Check the label for specific first aid instructions for that specific poison.","According to the passage, which of the following would be the strongest indicator of internal poisoning?",Nausea and fever ,Vomiting and sweating,Severe cramping and stomach pain,A prescription pill bottle,4
+41,D,"The passage states that the crust is thinner under the maria and thicker under the highlands, and that it was easier for lava to rise to the surface where the crust is thinner, implying fewer maria under the highlands.","<prediction>D</prediction>
+                                               
+<explanation>The passage states that the crust is thinner under the maria and thicker under the highlands, and that it was easier for lava to rise to the surface where the crust is thinner, implying fewer maria under the highlands.</explanation>",41,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The surface of the Moon is made of rocks and dust. The outer layer of the Moon is called the crust. The crust is about 70 km thick on the near side and 100 km thick on the far side. It is thinner under the maria and thicker under the highlands. There may be more maria on the near side because the crust is thinner. It was easier for lava to rise up to the surface.
+
+Question: According to the passage, which of the following statements accurately describes the Moon’s outer layer?
+
+Options:
+A) The near side has a thicker crust  
+B) The crust is thinner under the highlands  
+C) There may be less maria on the far side  
+D) There may be less maria under the highlands
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+",The surface of the Moon is made of rocks and dust. The outer layer of the Moon is called the crust. The crust is about 70 km thick on the near side and 100 km thick on the far side. It is thinner under the maria and thicker under the highlands. There may be more maria on the near side because the crust is thinner. It was easier for lava to rise up to the surface.,"According to the passage, which of the following statements accurately describes the Moon’s outer layer?",The near side has a thicker crust,The crust is thinner under the highlands,There may be less maria on the far side,There may be less maria under the highlands,3
+42,D,"Ayatollah Ali Khamenei described the dependency on oil as ""a trap"" from which the country should free itself.","<prediction>D</prediction>
+<explanation>Ayatollah Ali Khamenei described the dependency on oil as ""a trap"" from which the country should free itself.</explanation>",42,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""The comments, live on television, were the first time that senior Iranian sources have admitted that the sanctions are having any effect. They include financial restrictions and a ban by the European Union on the export of crude oil, from which the Iranian economy receives 80% of its foreign income. In its most recent monthly report, OPEC said exports of crude had fallen to their lowest level for two decades at 2.8 million barrels per day. The country's supreme leader, Ayatollah Ali Khamenei, has described the dependency on oil as """"a trap"""" dating from before Iran's Islamic revolution in 1979 and from which the country should free itself.""
+
+Question: In Ayatollah Ali Khamenei’s opinion, what should the country of Iran free itself from?
+
+Options:
+A) Financial restrictions  
+B) The Islamic revolution  
+C) Foreign income  
+D) A dependency on oil
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""The comments, live on television, were the first time that senior Iranian sources have admitted that the sanctions are having any effect. They include financial restrictions and a ban by the European Union on the export of crude oil, from which the Iranian economy receives 80% of its foreign income. In its most recent monthly report, OPEC said exports of crude had fallen to their lowest level for two decades at 2.8 million barrels per day. The country's supreme leader, Ayatollah Ali Khamenei, has described the dependency on oil as """"a trap"""" dating from before Iran's Islamic revolution in 1979 and from which the country should free itself.""","In Ayatollah Ali Khamenei’s opinion, what should the country of Iran free itself from?",Financial restrictions,The Islamic revolution,Foreign income,A dependency on oil,4
+43,D,"The passage states that in Rogaland and Agder, the plateaus are often covered in heather, which is a distinct characteristic mentioned for these regions.","<prediction>D</prediction>
+<explanation>The passage states that in Rogaland and Agder, the plateaus are often covered in heather, which is a distinct characteristic mentioned for these regions.</explanation>",43,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""Typical for Norway are steep fjords and valleys that suddenly give way to a high, more or less even plateau. These plateaus are often referred to as """"vidde"""" meaning a wide, open treeless space, a boundless expanse. In Rogaland and Agder they are usually called """"hei"""" meaning a treeless moorland often covered in heather.""
+
+Question: What is different about plateaus in Rogaland or Agder compared to the rest of Norway?
+
+Options:
+A) They have trees  
+B) There are no fjords  
+C) The plateaus are mostly even  
+D) They are often covered in heather
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""Typical for Norway are steep fjords and valleys that suddenly give way to a high, more or less even plateau. These plateaus are often referred to as """"vidde"""" meaning a wide, open treeless space, a boundless expanse. In Rogaland and Agder they are usually called """"hei"""" meaning a treeless moorland often covered in heather.""",What is different about plateaus in Rogaland or Agder compared to the rest of Norway?,They have trees,There are no fjords,The plateaus are mostly even,They are often covered in heather,4
+44,D,"The passage highlights luxurious bedding, specialty breakfast dishes, historic settings, antique furnishings, manicured grounds, and a swimming pool as key features of high-end B&Bs, but does not mention WiFi.","<prediction>D</prediction>
+<explanation>The passage highlights luxurious bedding, specialty breakfast dishes, historic settings, antique furnishings, manicured grounds, and a swimming pool as key features of high-end B&Bs, but does not mention WiFi.</explanation>",44,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: In developed countries today, providing deluxe bed and breakfasts has been raised to a sort of art-form. At the top end, B&Bs obviously compete mainly on two main things: bedding and breakfast. Accordingly, at the finest such establishments one is apt to find the most luxurious bedding, maybe a handmade quilt or an antique bed. Breakfast may include seasonal delights of the region or the host's speciality dish. The setting might be an historic old building with antique furnishings, manicured grounds and a swimming pool.
+
+Question: Based on the passage, which of the following amenities is not likely to be prioritized by a high end bed and breakfast?
+
+Options:
+A) Speciality menu items  
+B) Unique antique furnishings  
+C) Well maintained outdoor spaces  
+D) Fast WiFi
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","In developed countries today, providing deluxe bed and breakfasts has been raised to a sort of art-form. At the top end, B&Bs obviously compete mainly on two main things: bedding and breakfast. Accordingly, at the finest such establishments one is apt to find the most luxurious bedding, maybe a handmade quilt or an antique bed. Breakfast may include seasonal delights of the region or the host's speciality dish. The setting might be an historic old building with antique furnishings, manicured grounds and a swimming pool.","Based on the passage, which of the following amenities is not likely to be prioritized by a high end bed and breakfast?",Speciality menu items,Unique antique furnishings,Well maintained outdoor spaces,Fast WiFi,4
+45,C,"Peter Lenz was transported to a local hospital where he later died, indicating that his death occurred after arrival at the hospital.","<prediction>C</prediction>
+<explanation>Peter Lenz was transported to a local hospital where he later died, indicating that his death occurred after arrival at the hospital.</explanation>",45,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Peter Lenz, a 13-year-old motorcycle racer, has died after being involved in a crash at the Indianapolis Motor Speedway. While on his warm-up lap, Lenz fell off his bike, and was then struck by fellow racer Xavier Zayat. He was immediately attended to by the on-track medical staff and transported to a local hospital where he later died. Zayat was unhurt in the accident.
+
+Question: When did Peter Lenz die?
+
+Options:
+A) During the warm-up lap  
+B) After falling off his bike  
+C) At the hospital  
+D) While with on-track medical staff
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Peter Lenz, a 13-year-old motorcycle racer, has died after being involved in a crash at the Indianapolis Motor Speedway. While on his warm-up lap, Lenz fell off his bike, and was then struck by fellow racer Xavier Zayat. He was immediately attended to by the on-track medical staff and transported to a local hospital where he later died. Zayat was unhurt in the accident.",When did Peter Lenz die?,During the warm-up lap,After falling off his bike,At the hospital,While with on-track medical staff,3
+46,A,"The passage mentions that Harappa had a sophisticated sewage system, indicating an advanced sewage system.","<prediction>A</prediction>
+<explanation>The passage mentions that Harappa had a sophisticated sewage system, indicating an advanced sewage system.</explanation>",46,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: The cities of Harappa and Mohenjo-daro had a flush toilet in almost every house, attached to a sophisticated sewage system. Remains of sewage systems have been found in the houses of the Minoan cities of Crete and Santorini in Greece. There were also toilets in ancient Egypt, Persia and China. In Roman civilization, toilets were sometimes part of public bath houses where men and women were together in mixed company.
+
+Question: In which of the following locations were advanced sewage systems found?
+
+Options:
+A) Harappa  
+B) Santorini  
+C) Egypt   
+D) China
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","The cities of Harappa and Mohenjo-daro had a flush toilet in almost every house, attached to a sophisticated sewage system. Remains of sewage systems have been found in the houses of the Minoan cities of Crete and Santorini in Greece. There were also toilets in ancient Egypt, Persia and China. In Roman civilization, toilets were sometimes part of public bath houses where men and women were together in mixed company.",In which of the following locations were advanced sewage systems found?,Harappa,Santorini,Egypt ,China,1
+47,C,"The president stated that he feels well and in good shape to carry out his work by telecommuting, indicating that his condition allows him to work remotely.","<prediction>C</prediction>
+<explanation>The president stated that he feels well and in good shape to carry out his work by telecommuting, indicating that his condition allows him to work remotely.</explanation>",47,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: ""Arias tested positive for a mild case of the virus, Presidential Minister Rodrigo Arias said. The president's condition is stable, though he will be isolated at home for several days. """"Apart from the fever and a sore throat, I feel well and in good shape to carry out my work by telecommuting. I expect to return to all my duties on Monday,"""" Arias said in a statement.""
+
+Question: According to the passage, which of the following statements about the president is true?
+
+Options:
+A) He does not have a fever  
+B) He will remain at home for several weeks  
+C) He is well enough to telecommute  
+D) He has a severe case of the virus
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","""Arias tested positive for a mild case of the virus, Presidential Minister Rodrigo Arias said. The president's condition is stable, though he will be isolated at home for several days. """"Apart from the fever and a sore throat, I feel well and in good shape to carry out my work by telecommuting. I expect to return to all my duties on Monday,"""" Arias said in a statement.""","According to the passage, which of the following statements about the president is true?",He does not have a fever,He will remain at home for several weeks,He is well enough to telecommute,He has a severe case of the virus,3
+48,A,The passage states that the United States will be isolated as the only developed nation not to ratify the Kyoto climate accord after Mr. Rudd's decision to sign it.,"<prediction>A</prediction>
+                                               
+<explanation>The passage states that the United States will be isolated as the only developed nation not to ratify the Kyoto climate accord after Mr. Rudd's decision to sign it.</explanation>",48,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Mr. Rudd's decision to sign the Kyoto climate accord isolates the United States, which will now be the only developed nation not to ratify the agreement. Australia's former conservative government refused to ratify Kyoto, saying it would damage the economy with its heavy reliance on coal exports, while countries like India and China were not bound by emissions targets.
+
+Question: As stated in the passage, which nation is affected by the signing of the Kyoto climate accord?
+
+Options:
+A) United States  
+B) India  
+C) Australia  
+D) China
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+","Mr. Rudd's decision to sign the Kyoto climate accord isolates the United States, which will now be the only developed nation not to ratify the agreement. Australia's former conservative government refused to ratify Kyoto, saying it would damage the economy with its heavy reliance on coal exports, while countries like India and China were not bound by emissions targets.","As stated in the passage, which nation is affected by the signing of the Kyoto climate accord?",United States,India,Australia,China,1
+49,B,"The passage advises using a 4x4 vehicle and states that many locations are only accessible with a high wheel base 4x4, contradicting the idea that most locations are accessible with a normal vehicle.","<prediction>B</prediction>
+<explanation>The passage advises using a 4x4 vehicle and states that many locations are only accessible with a high wheel base 4x4, contradicting the idea that most locations are accessible with a normal vehicle.</explanation>",49,predict_then_explain,"
+You are given a passage and a multiple-choice question.
+
+Step 1: Based on the passage, select the most likely correct answer.  
+Step 2: Justify your answer using evidence or reasoning from the passage.
+
+Instructions:
+- Use only the passage to support your decision.
+- Do not reference the other answer options in your explanation.
+- Keep the explanation short (1–3 sentences).
+- Do not copy any option text directly.
+
+---
+
+Passage: Entering Southern Africa by car is an amazing way to see all the region's beauty as well as to get to places off the normal tourist routes. This can be done in a normal car with careful planning but a 4x4 is highly advised and many locations are only accessible with a high wheel base 4x4. Keep in mind while planning that although Southern Africa is stable not all neighboring countries are. Visa requirements and costs vary from nation to nation and are affected by the country you come from. Each country also has unique laws requiring what emergency items need to be in the car.
+
+Question: According to the passage, what would be considered bad advice for tourists looking to explore Southern Africa by car?
+
+Options:
+A) Certain in-car emergency items might be required by law  
+B) Though a 4x4 is recommended, most locations are accessible with a normal vehicle  
+C) Traveling via car is great for those looking to deviate from typical routes  
+D) Not all countries neighboring Southern African are ideal to visit
+
+Please answer in EXACTLY this format (do not add anything else):
+
+<prediction>[A/B/C/D]</prediction>
+                                               
+<explanation>[Your concise explanation]</explanation>
+                                               
+",Entering Southern Africa by car is an amazing way to see all the region's beauty as well as to get to places off the normal tourist routes. This can be done in a normal car with careful planning but a 4x4 is highly advised and many locations are only accessible with a high wheel base 4x4. Keep in mind while planning that although Southern Africa is stable not all neighboring countries are. Visa requirements and costs vary from nation to nation and are affected by the country you come from. Each country also has unique laws requiring what emergency items need to be in the car.,"According to the passage, what would be considered bad advice for tourists looking to explore Southern Africa by car?",Certain in-car emergency items might be required by law,"Though a 4x4 is recommended, most locations are accessible with a normal vehicle",Traveling via car is great for those looking to deviate from typical routes,Not all countries neighboring Southern African are ideal to visit,2
