@@ -1,0 +1,151 @@
+prediction_cohere_r_command,explanation_cohere_r_command,raw_output_r_command,index,prompt_r_command,question,option_A,option_B,option_C,option_D,correct_answer,explanation_length,explanation_was_fixed,masked_explanation,sufficiency_original_logprob,sufficiency_original_prob,sufficiency_original_hit,sufficiency_original_predicted,sufficiency_original_response,sufficiency_masked_logprob,sufficiency_masked_prob,sufficiency_masked_hit,sufficiency_masked_predicted,sufficiency_masked_response
+D,"Higher air pressure in the valley causes greater pressure on the outside of the bottle, resulting in the collapse of","<prediction>D</prediction>
+<explanation>Higher air pressure in the valley causes greater pressure on the outside of the bottle, resulting in the collapse of",13,"
+You are given a multiple-choice question.
+
+Your task has two steps:
+
+Step 1: Based on the question, choose the most likely correct answer (A, B, C, or D).  
+Step 2: Justify your answer with a brief explanation using only information from the passage or question.
+
+Instructions:
+- Do NOT reference other options in your explanation.
+- Do NOT mention or copy the answer option text.
+- Keep the explanation concise (1–3 sentences).
+- Do NOT use phrases like “I think” or “the correct answer is.”
+
+Respond in EXACTLY this format:
+                                    
+<prediction>[A/B/C/D]</prediction>
+<explanation>[Your concise explanation here]</explanation>
+                                    
+---
+                                    
+Question: A man climbed to the top of a very high mountain. While on the mountain top, he drank all the water in his plastic water bottle and then put the cover back on. When he returned to camp in the valley, he discovered the the empty bottle had collapsed. Which of the following best explains why this happened?
+
+Options:
+A) The temperature is lower in the valley than on the mountain top.  
+B) The temperature is higher in the valley than on the mountain top.  
+C) Air pressure in the valley is lower than on the mountain top.  
+D) Air pressure in the valley is higher than on the mountain top.
+","A man climbed to the top of a very high mountain. While on the mountain top, he drank all the water in his plastic water bottle and then put the cover back on. When he returned to camp in the valley, he discovered the the empty bottle had collapsed. Which of the following best explains why this happened?",The temperature is lower in the valley than on the mountain top.,The temperature is higher in the valley than on the mountain top.,Air pressure in the valley is lower than on the mountain top.,Air pressure in the valley is higher than on the mountain top.,D,116,True,"Higher air pressure in the valley causes greater pressure on the outside of the bottle, resulting in the collapse of",,100.0,True,D,D,,100.0,True,D,D
+C,Recycled paper helps reduce pollution since it doesn't require the same energy-intensive processes as paper made from,"<prediction>C</prediction>
+<explanation>Recycled paper helps reduce pollution since it doesn't require the same energy-intensive processes as paper made from",39,"
+You are given a multiple-choice question.
+
+Your task has two steps:
+
+Step 1: Based on the question, choose the most likely correct answer (A, B, C, or D).  
+Step 2: Justify your answer with a brief explanation using only information from the passage or question.
+
+Instructions:
+- Do NOT reference other options in your explanation.
+- Do NOT mention or copy the answer option text.
+- Keep the explanation concise (1–3 sentences).
+- Do NOT use phrases like “I think” or “the correct answer is.”
+
+Respond in EXACTLY this format:
+                                    
+<prediction>[A/B/C/D]</prediction>
+<explanation>[Your concise explanation here]</explanation>
+                                    
+---
+                                    
+Question: It is important to use recycled paper because it
+
+Options:
+A) comes in colors.  
+B) has a smoother appearance.  
+C) creates less pollution.  
+D) reduces the number of trees cut down.
+",It is important to use recycled paper because it,comes in colors.,has a smoother appearance.,creates less pollution.,reduces the number of trees cut down.,D,117,True,Recycled paper helps reduce pollution since it doesn't require the same energy-intensive processes as paper made from,,0.0,False,C,C,,0.0,False,C,C
+C,Cross-pollination is a method used in selective breeding to combine desirable traits from two different plant varieties,"<prediction>C</prediction>
+<explanation>Cross-pollination is a method used in selective breeding to combine desirable traits from two different plant varieties",30,"
+You are given a multiple-choice question.
+
+Your task has two steps:
+
+Step 1: Based on the question, choose the most likely correct answer (A, B, C, or D).  
+Step 2: Justify your answer with a brief explanation using only information from the passage or question.
+
+Instructions:
+- Do NOT reference other options in your explanation.
+- Do NOT mention or copy the answer option text.
+- Keep the explanation concise (1–3 sentences).
+- Do NOT use phrases like “I think” or “the correct answer is.”
+
+Respond in EXACTLY this format:
+                                    
+<prediction>[A/B/C/D]</prediction>
+<explanation>[Your concise explanation here]</explanation>
+                                    
+---
+                                    
+Question: A scientist cross-pollinates a tomato plant that is resistant to viruses with a tomato plant that produces large tomatoes. This is an example of
+
+Options:
+A) natural selection.  
+B) asexual reproduction.  
+C) selective breeding.  
+D) genetic engineering.
+",A scientist cross-pollinates a tomato plant that is resistant to viruses with a tomato plant that produces large tomatoes. This is an example of,natural selection.,asexual reproduction.,selective breeding.,genetic engineering.,C,119,True,Cross-pollination is a method used in selective breeding to combine desirable traits from two different plant varieties,,100.0,True,C,C,,100.0,True,C,C
+D,"Ice can crack rocks as it expands and contracts with temperature changes, and it can also carve out V-","<prediction>D</prediction>
+<explanation>Ice can crack rocks as it expands and contracts with temperature changes, and it can also carve out V-",45,"
+You are given a multiple-choice question.
+
+Your task has two steps:
+
+Step 1: Based on the question, choose the most likely correct answer (A, B, C, or D).  
+Step 2: Justify your answer with a brief explanation using only information from the passage or question.
+
+Instructions:
+- Do NOT reference other options in your explanation.
+- Do NOT mention or copy the answer option text.
+- Keep the explanation concise (1–3 sentences).
+- Do NOT use phrases like “I think” or “the correct answer is.”
+
+Respond in EXACTLY this format:
+                                    
+<prediction>[A/B/C/D]</prediction>
+<explanation>[Your concise explanation here]</explanation>
+                                    
+---
+                                    
+Question: What are two ways ice can change Earth's surface?
+
+Options:
+A) cracking a rock and making a U-shaped valley  
+B) making a dune and making a U-shaped valley  
+C) making a dune and making a V-shaped valley  
+D) cracking a rock and making a V-shaped valley
+",What are two ways ice can change Earth's surface?,cracking a rock and making a U-shaped valley,making a dune and making a U-shaped valley,making a dune and making a V-shaped valley,cracking a rock and making a V-shaped valley,A,102,True,"Ice can crack rocks as it expands and contracts with temperature changes, and it can also carve out V-",,100.0,True,A,A,,100.0,True,A,A
+A,"The number of protons in an atom determines its atomic number and positive charge. With more protons than electrons,","<prediction>A</prediction>
+<explanation>The number of protons in an atom determines its atomic number and positive charge. With more protons than electrons,",17,"
+You are given a multiple-choice question.
+
+Your task has two steps:
+
+Step 1: Based on the question, choose the most likely correct answer (A, B, C, or D).  
+Step 2: Justify your answer with a brief explanation using only information from the passage or question.
+
+Instructions:
+- Do NOT reference other options in your explanation.
+- Do NOT mention or copy the answer option text.
+- Keep the explanation concise (1–3 sentences).
+- Do NOT use phrases like “I think” or “the correct answer is.”
+
+Respond in EXACTLY this format:
+                                    
+<prediction>[A/B/C/D]</prediction>
+<explanation>[Your concise explanation here]</explanation>
+                                    
+---
+                                    
+Question: If an atom has two protons and three electrons, then the atom is
+
+Options:
+A) positively charged.  
+B) negatively charged.  
+C) radioactive.  
+D) neutral.
+","If an atom has two protons and three electrons, then the atom is",positively charged.,negatively charged.,radioactive.,neutral.,B,116,True,"The number of protons in an atom determines its atomic number and positive charge. With more protons than electrons,",,0.0,False,A,A,,0.0,False,A,A

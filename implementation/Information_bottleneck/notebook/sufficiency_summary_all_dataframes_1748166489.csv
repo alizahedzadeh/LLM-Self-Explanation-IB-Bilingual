@@ -1,0 +1,7 @@
+dataframe,rows_evaluated,original_accuracy,masked_accuracy,accuracy_difference,both_correct,only_original_correct,only_masked_correct,both_wrong,both_correct_pct,only_original_pct,only_masked_pct,both_wrong_pct
+unlimited,5,60.0,60.0,0.0,3,0,0,2,60.0,0.0,0.0,40.0
+max_16,5,60.0,60.0,0.0,3,0,0,2,60.0,0.0,0.0,40.0
+max_24,5,60.0,60.0,0.0,3,0,0,2,60.0,0.0,0.0,40.0
+max_32,5,60.0,60.0,0.0,3,0,0,2,60.0,0.0,0.0,40.0
+max_40,5,60.0,60.0,0.0,3,0,0,2,60.0,0.0,0.0,40.0
+max_48,5,60.0,60.0,0.0,3,0,0,2,60.0,0.0,0.0,40.0
