@@ -1,0 +1,3 @@
+row_id,question_id,prediction,actual_answer,is_correct,split,has_error,processing_time
+0,Mercury_SC_415702,A,A,True,train,False,1.5767767429351807
+1,MCAS_2009_5_6516,B,B,True,train,False,1.848320722579956

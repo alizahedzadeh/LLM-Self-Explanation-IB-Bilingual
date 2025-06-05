@@ -1,7 +1,0 @@
-dataframe,rows_evaluated,baseline_accuracy,baseline_correct_count,baseline_avg_confidence,high_conf_correct,low_conf_correct,high_conf_wrong,low_conf_wrong,high_conf_correct_pct,low_conf_correct_pct,high_conf_wrong_pct,low_conf_wrong_pct
-unlimited,50,100.0,50,100.0,50,0,0,0,100.0,0.0,0.0,0.0
-max_16,50,100.0,50,100.0,50,0,0,0,100.0,0.0,0.0,0.0
-max_24,50,100.0,50,100.0,50,0,0,0,100.0,0.0,0.0,0.0
-max_32,50,100.0,50,100.0,50,0,0,0,100.0,0.0,0.0,0.0
-max_40,50,100.0,50,100.0,50,0,0,0,100.0,0.0,0.0,0.0
-max_48,50,100.0,50,100.0,50,0,0,0,100.0,0.0,0.0,0.0

@@ -1,7 +1,0 @@
-dataframe,rows_evaluated,baseline_accuracy,baseline_confidence,original_explanation_accuracy,masked_explanation_accuracy,original_vs_baseline_improvement,masked_vs_baseline_improvement,explanation_effectiveness,best_method,best_accuracy,performance_gap
-unlimited,50,100.0,100.0,88.0,88.0,-12.0,-12.0,0.0,Baseline,100.0,12.0
-max_16,50,100.0,100.0,94.0,94.0,-6.0,-6.0,0.0,Baseline,100.0,6.0
-max_24,50,100.0,100.0,86.0,86.0,-14.0,-14.0,0.0,Baseline,100.0,14.0
-max_32,50,100.0,100.0,88.0,88.0,-12.0,-12.0,0.0,Baseline,100.0,12.0
-max_40,50,100.0,100.0,88.0,88.0,-12.0,-12.0,0.0,Baseline,100.0,12.0
-max_48,50,100.0,100.0,88.0,88.0,-12.0,-12.0,0.0,Baseline,100.0,12.0

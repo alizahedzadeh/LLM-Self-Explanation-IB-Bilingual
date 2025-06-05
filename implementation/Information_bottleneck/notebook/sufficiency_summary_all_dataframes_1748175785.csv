@@ -1,7 +1,0 @@
-dataframe,rows_evaluated,original_accuracy,masked_accuracy,accuracy_difference,both_correct,only_original_correct,only_masked_correct,both_wrong,both_correct_pct,only_original_pct,only_masked_pct,both_wrong_pct
-unlimited,50,88.0,88.0,0.0,44,0,0,6,88.0,0.0,0.0,12.0
-max_16,50,94.0,94.0,0.0,47,0,0,3,94.0,0.0,0.0,6.0
-max_24,50,86.0,86.0,0.0,43,0,0,7,86.0,0.0,0.0,14.000000000000002
-max_32,50,88.0,88.0,0.0,44,0,0,6,88.0,0.0,0.0,12.0
-max_40,50,88.0,88.0,0.0,44,0,0,6,88.0,0.0,0.0,12.0
-max_48,50,88.0,88.0,0.0,44,0,0,6,88.0,0.0,0.0,12.0
