@@ -154,3 +154,55 @@ def add_perplexity_to_df(df, explanation_col, model_name, new_col_name, logger):
 
     df[new_col_name] = perplexities
     return df
+
+
+import tiktoken
+
+def compute_conciseness_metrics(verbose, concise):
+    enc = tiktoken.get_encoding("cl100k_base")
+    verbose_tokens = len(enc.encode(verbose))
+    concise_tokens = len(enc.encode(concise))
+    reduction = verbose_tokens - concise_tokens
+    percent = 100 * reduction / verbose_tokens
+    return verbose_tokens, concise_tokens, reduction, percent
+
+# Example usage
+'''
+verbose = "The mitochondria is often called the powerhouse of the cell because it produces energy by converting glucose and oxygen into ATP through the process of cellular respiration."
+concise = "Mitochondria produce ATP from glucose and oxygen."
+
+print(compute_conciseness_metrics(verbose, concise))
+'''
+
+import torch
+
+def scorer_logprobs(model, tokenizer, question, explanation, choices):
+    """
+    Returns a dict of log-probs for each possible answer choice.
+    - model: HuggingFace causal LM
+    - tokenizer: HuggingFace tokenizer
+    - question: str
+    - explanation: str (already masked if needed)
+    - choices: dict, like {"A": "...", "B": "...", ...}
+    """
+    prompt = f"{question}\nExplanation: {explanation}\nChoices:\n"
+    prompt += "\n".join([f"{k}) {v}" for k, v in choices.items()])
+    prompt += "\nAnswer:"
+
+    logprobs = {}
+    for letter in choices.keys():
+        option_prompt = prompt + f" {letter}"
+        input_ids = tokenizer(option_prompt, return_tensors="pt").input_ids.to(model.device)
+        with torch.no_grad():
+            outputs = model(input_ids, labels=input_ids)
+            loss = outputs.loss.item()
+        # Negative loss = log-prob (since loss is -logp)
+        logprobs[letter] = -loss
+    return logprobs
+
+def final_prediction(model, tokenizer, question, explanation, choices):
+    """
+    Returns the choice letter with the highest log-prob.
+    """
+    logprobs = scorer_logprobs(model, tokenizer, question, explanation, choices)
+    return max(logprobs, key=logprobs.get)
