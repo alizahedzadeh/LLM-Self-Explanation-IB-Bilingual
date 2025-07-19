@@ -9,3 +9,6 @@ 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
 
 groq2 :
 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
+
+openrouter :
+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
