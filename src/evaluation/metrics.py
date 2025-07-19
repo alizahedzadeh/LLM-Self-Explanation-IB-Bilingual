@@ -109,3 +109,48 @@ if __name__ == "__main__":
     y_pred_reg = [2.0, 2.9, 4.4, 6.3]
     print("\nRegression Metrics:")
     print_regression_report(y_true_reg, y_pred_reg)
+
+
+import logging
+import torch
+import math
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+
+def load_model(model_name, logger):
+    logger.info(f"Loading model: {model_name}")
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torch_dtype=torch.float16)
+    model.eval()
+    return tokenizer, model
+
+def calc_perplexity_single(text, tokenizer, model, logger):
+    inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
+    input_ids = inputs.input_ids.to(model.device)
+    attention_mask = inputs.get("attention_mask", None)
+    if attention_mask is not None:
+        attention_mask = attention_mask.to(model.device)
+
+    with torch.no_grad():
+        outputs = model(input_ids, attention_mask=attention_mask, labels=input_ids)
+        loss = outputs.loss
+    ppl = math.exp(loss.item())
+    logger.debug(f"Perplexity for text: {text[:50]}... is {ppl:.2f}")
+    return ppl
+
+def add_perplexity_to_df(df, explanation_col, model_name, new_col_name, logger):
+    logger.info(f"Starting perplexity calculation for {new_col_name}")
+    tokenizer, model = load_model(model_name, logger)
+
+    df[explanation_col] = df[explanation_col].fillna("")
+    perplexities = []
+    
+    for idx, text in enumerate(df[explanation_col]):
+        ppl = calc_perplexity_single(text, tokenizer, model, logger)
+        perplexities.append(ppl)
+
+        if idx % 100 == 0:
+            logger.info(f"[{idx}/{len(df)}] Perplexity: {ppl:.2f}")
+
+    df[new_col_name] = perplexities
+    return df
