@@ -117,7 +117,8 @@ def evaluate_models_with_explanation(model_names, df, option_columns, option_let
         acc_noexp = results_df['is_correct_noexp'].mean()
         acc_exp = results_df['is_correct_exp'].mean()
         suff_rate = results_df['sufficiency'].mean()
-        logger.info(f"\nModel: {short_name} | Acc noexp: {acc_noexp:.3f} | Acc exp: {acc_exp:.3f} | Sufficiency: {suff_rate:.3f}")
+        conf_rate = results_df['pred_conf_exp'].mean()
+        logger.info(f"\nModel: {short_name} | Acc noexp: {acc_noexp:.3f} | Acc exp: {acc_exp:.3f} | Sufficiency: {suff_rate:.3f} | Confidence Rate: {conf_rate:.3f}")
 
         # Cleanup
         del model
@@ -240,7 +241,9 @@ def evaluate_models_with_masked_explanation(model_names, df, option_columns, opt
         acc_noexp = results_df['is_correct_noexp'].mean()
         acc_exp = results_df['is_correct_exp'].mean()
         suff_rate = results_df['sufficiency'].mean()
-        logger.info(f"\nModel: {short_name} | Acc noexp: {acc_noexp:.3f} | Acc exp: {acc_exp:.3f} | Sufficiency: {suff_rate:.3f}")
+        conf_rate = results_df['pred_conf_exp'].mean()
+        logger.info(f"\nModel: {short_name} | Acc noexp: {acc_noexp:.3f} | Acc exp: {acc_exp:.3f} | Sufficiency: {suff_rate:.3f} | Confidence Rate: {conf_rate:.3f}")
+        
 
         # Cleanup
         del model
