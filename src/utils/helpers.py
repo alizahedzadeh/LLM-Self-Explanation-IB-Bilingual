@@ -34,23 +34,6 @@ def mask_explanation_limit(row):
     
     return explanation
 
-def mask_explanation_fa(row):
-    explanation = row["explanation"]
-    correct_letter = row["answerKey"]
-    if pd.isna(explanation):
-        return ""
-    
-    # Mask correct option letter
-    explanation = re.sub(rf'\b{correct_letter}\b', '[MASK]', explanation, flags=re.IGNORECASE)
-
-    # Mask all option texts
-    for col in ['choice_A_fa', 'choice_B_fa', 'choice_C_fa', 'choice_D_fa']:
-        option_text = re.escape(str(row[col]))
-        explanation = re.sub(option_text, '[MASK]', explanation, flags=re.IGNORECASE)
-    
-    return explanation
-
-
 def count_tokens(text, enc):
     return len(enc.encode(text))
 

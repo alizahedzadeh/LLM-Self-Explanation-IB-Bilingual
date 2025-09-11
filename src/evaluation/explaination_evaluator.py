@@ -92,11 +92,18 @@ def evaluate_models_with_explanation(model_names, df, option_columns, option_let
                 (is_correct_noexp and is_correct_exp and (pred_conf_exp > pred_conf))
             )
 
-            logger.info(
-                f"[{short_name}] [Q{idx}] Gold: {gold_letter} | Pred_noexp: {pred_letter} ({pred_conf:.3f}) | "
-                f"Pred_exp: {pred_letter_exp} ({pred_conf_exp:.3f}) | "
-                f"Correct_noexp: {is_correct_noexp} | Correct_exp: {is_correct_exp} | Sufficient: {sufficiency}"
-            )
+            # logger.info(
+            #     f"[{short_name}] [Q{idx}] Gold: {gold_letter} | Pred_noexp: {pred_letter} ({pred_conf:.3f}) | "
+            #     f"Pred_exp: {pred_letter_exp} ({pred_conf_exp:.3f}) | "
+            #     f"Correct_noexp: {is_correct_noexp} | Correct_exp: {is_correct_exp} | Sufficient: {sufficiency}"
+            # )
+            if idx % 100 == 0:
+                logger.info(
+                    f"[{short_name}] Progress Q{idx}/{len(df)} | Gold: {gold_letter} | "
+                    f"Pred_noexp: {pred_letter} | Pred_exp: {pred_letter_exp} | "
+                    f"Correct_noexp: {is_correct_noexp} | Correct_exp: {is_correct_exp} | Sufficient: {sufficiency}"
+                )
+
 
             results.append({
                 'index': row['row_id'] if 'row_id' in row else idx,
@@ -222,11 +229,17 @@ def evaluate_models_with_masked_explanation(model_names, df, option_columns, opt
             )
 
 
-            logger.info(
-                f"[{short_name}] [Q{idx}] Gold: {gold_letter} | Pred_noexp: {pred_letter} ({pred_conf:.3f}) | "
-                f"Pred_exp: {pred_letter_exp} ({pred_conf_exp:.3f}) | "
-                f"Correct_noexp: {is_correct_noexp} | Correct_exp: {is_correct_exp} | Sufficient: {sufficiency}"
-            )
+            # logger.info(
+            #     f"[{short_name}] [Q{idx}] Gold: {gold_letter} | Pred_noexp: {pred_letter} ({pred_conf:.3f}) | "
+            #     f"Pred_exp: {pred_letter_exp} ({pred_conf_exp:.3f}) | "
+            #     f"Correct_noexp: {is_correct_noexp} | Correct_exp: {is_correct_exp} | Sufficient: {sufficiency}"
+            # )
+            if idx % 100 == 0:
+                logger.info(
+                    f"[{short_name}] [Q{idx}] Gold: {gold_letter} | Pred_noexp: {pred_letter} ({pred_conf:.3f}) | "
+                    f"Pred_exp: {pred_letter_exp} ({pred_conf_exp:.3f}) | "
+                    f"Correct_noexp: {is_correct_noexp} | Correct_exp: {is_correct_exp} | Sufficient: {sufficiency}"
+                )
 
             results.append({
                 'index': row['row_id'] if 'row_id' in row else idx,
