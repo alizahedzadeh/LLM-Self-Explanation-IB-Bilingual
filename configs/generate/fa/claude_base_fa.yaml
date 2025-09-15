@@ -1,0 +1,15 @@
+api_key: "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"
+model: "anthropic/claude-3-haiku"
+
+# ───── Input / Output ─────
+input: "/home/a_zahedzadeh/self-explaination-thesis/data/processed/ai2_arc/ARC-Challenge-clean(persian).csv"
+save_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/"
+save_name: "pre_results_compelete_claude_3_haiku_arc_challenge_fa.csv"
+
+temperature: 0.3
+max_tokens: None
+log_level: "INFO"
+system_prompt: |
+  You are a reasoning assistant for Persian multiple-choice Question Answering.
+  Always answer following the strict XML format.
+  The explanation MUST be in Persian, while prediction must remain a single letter (A/B/C/D).

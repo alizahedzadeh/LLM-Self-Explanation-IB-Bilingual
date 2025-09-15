@@ -1,0 +1,17 @@
+api_key: "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"
+model: "google/gemini-2.0-flash-001"
+
+# Dataset input
+input: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gemini_2_flash/fa/pre_results_compelete_gemini_2_flash_arc_challenge_fa.csv"
+
+# Output settings
+save_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gemini_2_flash/fa"
+save_prefix: "concise_rewrites_gemini-2.0-flash-001_fa"   # final file → {save_prefix}_{pct}.csv
+
+# Model generation settings
+temperature: 0.3
+percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
+sleep_seconds: 0.7
+
+# Logging
+log_level: "INFO"

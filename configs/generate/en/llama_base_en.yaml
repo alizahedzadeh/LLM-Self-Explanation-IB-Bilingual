@@ -1,0 +1,13 @@
+api_key: "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"
+model: "meta-llama/llama-4-maverick"
+input: "../data/processed/ai2_arc/ARC-Challenge-clean.csv"
+output: "pre_results_compelete_llama_4_maverik_arc_challenge.csv"
+temperature: 0.3
+max_tokens: None
+log_level: "INFO"
+system_prompt: |
+  You are a reasoning assistant for multiple-choice Question Answering.
+  Always respond in this exact format:
+
+  <prediction>[Your choice A/B/C/D]</prediction>
+  <explanation>[Your explanation]</explanation>

@@ -1,0 +1,8 @@
+input: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_maverik/pre_results_compelete_llama_4_maverik_arc_challenge.csv
+output_dir: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_maverik
+api_key: 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
+model: meta-llama/llama-4-maverick
+model_name: llama-4-maverick
+percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
+log_level: INFO
+sleep: 1.2

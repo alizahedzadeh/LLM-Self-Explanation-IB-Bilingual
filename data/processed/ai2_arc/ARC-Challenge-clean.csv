@@ -1,4 +1,4 @@
-,Unnamed: 0,id,question,answerKey,choice_A,choice_B,choice_C,choice_D,split
+,Unnamed: 0,id,question,actual_answer,choice_A,choice_B,choice_C,choice_D,split
 0,0,Mercury_SC_415702,George wants to warm his hands quickly by rubbing them. Which skin surface will produce the most heat?,A,dry palms,wet palms,palms covered with oil,palms covered with lotion,train
 1,1,MCAS_2009_5_6516,Which of the following statements best explains why magnets usually stick to a refrigerator door?,B,The refrigerator door is smooth.,The refrigerator door contains iron.,The refrigerator door is a good conductor.,The refrigerator door has electric wires in it.,train
 2,2,Mercury_7233695,A fold observed in layers of sedimentary rock most likely resulted from the,B,cooling of flowing magma.,converging of crustal plates.,deposition of river sediments.,solution of carbonate minerals.,train
