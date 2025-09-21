@@ -1,8 +1,17 @@
-input: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/pre_results_compelete_claude_3_haiku_arc_challenge.csv
-output_dir: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku
-api_key: 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
-model: anthropic/claude-3-haiku
-model_name: claude-3-haiku
-percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
-log_level: INFO
-sleep: 1.2
+api_key: "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"
+model: "anthropic/claude-3-haiku"
+
+# Dataset input
+input: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/pre_results_compelete_claude_3_haiku_arc_challenge_fa.csv"
+
+# Output settings
+save_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa"
+save_prefix: "concise_rewrites_claude_3_haiku_fa"   # final file → {save_prefix}_{pct}.csv
+
+# Model generation settings
+temperature: 0.3
+percentages: [70, 60, 50, 40]
+sleep_seconds: 0.7
+
+# Logging
+log_level: "INFO"

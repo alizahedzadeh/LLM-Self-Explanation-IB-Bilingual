@@ -1,61 +1,64 @@
 import pandas as pd
 import logging
+import argparse
+import yaml
+import os,sys
 
-import sys, os
-
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.evaluation.explaination_evaluator import evaluate_models_with_masked_explanation
 from src.utils.helpers import mask_explanation, mask_explanation_limit
 
-# ───── Setup Logger ─────
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
-logger = logging.getLogger("concise_eval_persian")
 
-# ───── Model to Evaluate ─────
-model_names = [
-    ("Qwen/Qwen3-1.7B", "qwen3-1.7b"),
-]
+def load_config(config_path):
+    with open(config_path, "r") as f:
+        return yaml.safe_load(f)
 
-# ───── Option Columns and Labels ─────
-option_columns = ['choice_A', 'choice_B', 'choice_C', 'choice_D']
-option_letters = ['A', 'B', 'C', 'D']
 
-# ───── List of Trim Files and Their Percent Labels ─────
-trim_versions = {
-    0: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/pre_results_compelete_persian_gpt_4o_mini_arc_challenge.csv",
-    90: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_90.csv",
-    80: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_80.csv",
-    70: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_70.csv",
-    60: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_60.csv",
-    50: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_50.csv",
-    40: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_40.csv",
-    30: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_30.csv",
-    20: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_20.csv",
-    10: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gpt_4o_mini/fa/concise_rewrites_fa_10.csv",
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=str, required=True, help="Path to eval config YAML")
+    args = parser.parse_args()
 
-}
+    cfg = load_config(args.config)
 
-# ───── Run Evaluation Per Trim Level ─────
-for pct, filepath in trim_versions.items():
-    logger.info(f"\n===== Running evaluation for trim_percent = {pct}% =====")
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
+    logger = logging.getLogger("concise_eval")
 
-    
-    if pct == 0:
-        df = pd.read_csv(filepath)
-        df['masked_explanation'] = df.apply(mask_explanation, axis=1)
-    else:
-        df = pd.read_csv(filepath)
-        df['masked_explanation'] = df.apply(mask_explanation_limit, axis=1)
+    model_names = [(m["name"], m["short"]) for m in cfg["models"]]
+    option_columns = cfg["option_columns"]
+    option_letters = cfg["option_letters"]
+    trim_versions = cfg["trim_versions"]
 
-    # ───── Apply masking before second evaluation ─────
-    
+    results_dir = cfg.get("results_dir", "results")
+    filename_pattern = cfg.get("filename_pattern", "{model}_masked_{pct}.csv")
 
-    # Evaluate with masked explanation
-    output_with_masked = evaluate_models_with_masked_explanation(
-        model_names=model_names,
-        df=df,
-        option_columns=option_columns,
-        option_letters=option_letters,
-        logger=logger,
-    )
-    output_with_masked.to_csv(f"results_masked_fa_{pct}.csv", index=False)
+    os.makedirs(results_dir, exist_ok=True)
+
+    for model_name, short_name in model_names:
+        logger.info(f"\n===== Evaluating model {model_name} ({short_name}) =====")
+
+        for pct, filepath in trim_versions.items():
+            logger.info(f"\n--- Trim level = {pct}% ---")
+
+            df = pd.read_csv(filepath)
+            if pct == 0:
+                df["masked_explanation"] = df.apply(mask_explanation, axis=1)
+            else:
+                df["masked_explanation"] = df.apply(mask_explanation_limit, axis=1)
+
+            output_with_masked = evaluate_models_with_masked_explanation(
+                model_names=[(model_name, short_name)],
+                df=df,
+                option_columns=option_columns,
+                option_letters=option_letters,
+                logger=logger,
+            )
+
+            filename = filename_pattern.format(model=short_name, pct=pct)
+            out_file = os.path.join(results_dir, filename)
+            output_with_masked.to_csv(out_file, index=False)
+            logger.info(f"Saved results to {out_file}")
+
+
+if __name__ == "__main__":
+    main()

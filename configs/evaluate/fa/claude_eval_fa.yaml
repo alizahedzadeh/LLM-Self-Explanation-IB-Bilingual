@@ -1,0 +1,21 @@
+models:
+  - name: "Qwen/Qwen3-1.7B"
+    short: "qwen3-1.7b"
+
+option_columns: ["choice_A", "choice_B", "choice_C", "choice_D"]
+option_letters: ["A", "B", "C", "D"]
+
+trim_versions:
+  0: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/pre_results_compelete_claude_3_haiku_arc_challenge_fa.csv"
+  90: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_90.csv"
+  80: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_80.csv"
+  70: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_70.csv"
+  60: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_60.csv"
+  50: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_50.csv"
+  40: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_40.csv"
+  30: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_30.csv"
+  20: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_20.csv"
+  10: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/fa/concise_rewrites_claude_3_haiku_fa_10.csv"
+
+results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation/qwen_1.7B/fa/claude_3_haiku"
+filename_pattern: "eval_claude_3_haiku_fa_{pct}.csv"
