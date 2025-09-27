@@ -1,0 +1,13 @@
+api_key: "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"
+model: "x-ai/grok-3-mini"
+input: "../data/processed/ai2_arc/ARC-Challenge-clean.csv"
+output: "pre_results_compelete_grok_3_mini_arc_challenge.csv"
+temperature: 0.3
+max_tokens: None
+log_level: "INFO"
+system_prompt: |
+  You are a reasoning assistant for multiple-choice Question Answering.
+  Always respond in this exact format:
+
+  <prediction>[Your choice A/B/C/D]</prediction>
+  <explanation>[Your explanation]</explanation>
