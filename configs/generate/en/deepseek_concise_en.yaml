@@ -1,0 +1,8 @@
+input: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/en/pre_results_compelete_deepseek-chat-v3.1_arc_challenge.csv
+output_dir: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/en
+api_key: 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
+model: deepseek/deepseek-chat-v3.1
+model_name: deepseek-chat-v3.1
+percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
+log_level: INFO
+sleep: 0.7

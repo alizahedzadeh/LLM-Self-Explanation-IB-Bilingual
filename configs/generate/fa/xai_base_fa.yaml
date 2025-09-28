@@ -2,9 +2,9 @@ api_key: "sk-or-v1-1234f22b1717d9f1034ba16f77c8b0386e8f8f3570a84f7303811c4a90dbb
 model: "x-ai/grok-3-mini"
 
 # ───── Input / Output ─────
-input: "/home/a_zahedzadeh/self-explaination-thesis/data/processed/ai2_arc/ARC-Challenge-clean(persian).csv"
+input: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/missing_raw_output.csv"
 save_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/grok_3_mini/fa/"
-save_name: "pre_results_compelete_grok_3_mini_arc_challenge_fa.csv"
+save_name: "pre_results_compelete_grok_3_mini_arc_challenge_fa_miss.csv"
 
 temperature: 0.3
 max_tokens: None
@@ -13,3 +13,4 @@ system_prompt: |
   You are a reasoning assistant for Persian multiple-choice Question Answering.
   Always answer following the strict XML format.
   The explanation MUST be in Persian, while prediction must remain a single letter (A/B/C/D).
+sleep_seconds: 0.7

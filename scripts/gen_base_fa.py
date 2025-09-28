@@ -119,6 +119,7 @@ def main():
                 f"Row {i+1}/{len(df)} | Gold={row['actual_answer']} | Pred={prediction} "
                 f"| Expl snippet: {explanation[:80]}..."
             )
+        time.sleep(cfg.get("sleep", 0.7))  # avoid hitting rate limit
 
     out_df = pd.DataFrame(results)
     cols = [

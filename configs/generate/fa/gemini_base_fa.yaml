@@ -13,3 +13,4 @@ system_prompt: |
   You are a reasoning assistant for Persian multiple-choice Question Answering.
   Always answer following the strict XML format.
   The explanation MUST be in Persian, while prediction must remain a single letter (A/B/C/D).
+sleep_seconds: 0.7
