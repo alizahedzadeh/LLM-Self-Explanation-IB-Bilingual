@@ -1,0 +1,21 @@
+models:
+  - name: "Qwen/Qwen3-1.7B"
+    short: "qwen3-1.7b"
+
+option_columns: ["choice_A", "choice_B", "choice_C", "choice_D"]
+option_letters: ["A", "B", "C", "D"]
+
+trim_versions:
+  0: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/pre_results_compelete_cohere_command_r_arc_challenge_fa.csv"
+  90: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_90.csv"
+  80: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_80.csv"
+  70: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_70.csv"
+  60: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_60.csv"
+  50: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_50.csv"
+  40: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_40.csv"
+  30: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_30.csv"
+  20: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_20.csv"
+  10: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/cohere_r_command/fa/concise_rewrites_cohere_r_command_fa_10.csv"
+
+results_dir: "/home/tmptiloct15/self-explaination-thesis/results/models/evaluation/qwen_1.7B/fa/cohere_r_command"
+filename_pattern: "eval_cohere_r_command_fa_{pct}.csv"
