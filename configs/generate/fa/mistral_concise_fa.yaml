@@ -1,0 +1,17 @@
+api_key: "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"
+model: "mistralai/mistral-small-3.1-24b-instruct"
+
+# Dataset input
+input: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/mistral_small_3.1/fa/pre_results_compelete_mistral_small_3.1_arc_challenge_fa.csv"
+
+# Output settings
+save_dir: "/home/tmptiloct15/self-explaination-thesis/results/models/prediction/mistral_small_3.1/fa"
+save_prefix: "concise_rewrites_mistral_small_3.1_fa"   # final file → {save_prefix}_{pct}.csv
+
+# Model generation settings
+temperature: 0.3
+percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
+sleep_seconds: 0.7
+
+# Logging
+log_level: "INFO"
