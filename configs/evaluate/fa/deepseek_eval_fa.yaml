@@ -1,0 +1,21 @@
+models:
+  - name: "Qwen/Qwen3-1.7B"
+    short: "qwen3-1.7b"
+
+option_columns: ["choice_A", "choice_B", "choice_C", "choice_D"]
+option_letters: ["A", "B", "C", "D"]
+
+trim_versions:
+  0: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/pre_results_compelete_deepseek_chat_v3.1_arc_challenge_fa.csv"
+  90: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_90.csv"
+  80: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_80.csv"
+  70: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_70.csv"
+  60: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_60.csv"
+  50: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_50.csv"
+  40: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_40.csv"
+  30: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_30.csv"
+  20: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_20.csv"
+  10: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/fa/concise_rewrites_deepseek_chat_3.1_10.csv"
+
+results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation/qwen_1.7B/fa/deepseek"
+filename_pattern: "eval_deepseek_v3.1_{pct}.csv"
