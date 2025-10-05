@@ -16,9 +16,24 @@ def setup_logging(level="INFO"):
     logging.getLogger("torch").setLevel(logging.WARNING)
     return logging.getLogger(__name__)
 
-def compute_similarity(model, base_exps, df):
-    base_texts = [base_exps.get(idx, "").replace("[MASK]", "") for idx in df["index"]]
-    var_texts = [str(x).replace("[MASK]", "") for x in df["masked_explanation"].tolist()]
+def compute_similarity(model, base_exps, df, logger=None):
+    base_texts = []
+    var_texts = []
+
+    for idx in df["index"]:
+        val = base_exps.get(idx, "")
+        if not isinstance(val, str):
+            if logger:
+                logger.warning(f"Non-string value in base_exps for index {idx}: {val} ({type(val)})")
+            val = "" if pd.isna(val) else str(val)
+        base_texts.append(val.replace("[MASK]", ""))
+
+    for i, text in enumerate(df["masked_explanation"].tolist()):
+        if not isinstance(text, str):
+            if logger:
+                logger.warning(f"Non-string value in masked_explanation at row {i}: {text} ({type(text)})")
+            text = "" if pd.isna(text) else str(text)
+        var_texts.append(text.replace("[MASK]", ""))
 
     embeddings = model.encode(
         base_texts + var_texts,
@@ -41,7 +56,7 @@ def process_folder(folder, model, logger):
 
     for f in tqdm(trimmed_files, desc=f"Processing {os.path.basename(folder)}"):
         df = pd.read_csv(f)
-        df["similarity_with_base_clean"] = compute_similarity(model, base_exps, df)
+        df["similarity_with_base_clean"] = compute_similarity(model, base_exps, df, logger=logger)
         df.to_csv(f, index=False)
         logger.info(f"✅ Updated {f}")
 

@@ -1,5 +1,5 @@
 embedding_model: "Qwen/Qwen3-Embedding-0.6B"
 
-root_dir: "/home/tmptiloct15/self-explaination-thesis/results/models/evaluation/qwen_1.7B/fa"
+root_dir: "../results/models/evaluation/qwen_1.7B/fa"
 
 logging: "INFO"
