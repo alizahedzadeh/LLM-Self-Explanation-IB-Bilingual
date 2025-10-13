@@ -1,16 +1,16 @@
-api_key: "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"
-model: "meta-llama/llama-4-maverick"
+api_key: "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"
+model: "meta-llama/llama-4-scout"
 
 # Dataset input
-input: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_maverik/fa/pre_results_compelete_llama_4_maverik_arc_challenge_fa.csv"
+input: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_scout/fa/pre_results_compelete_llama_4_scout_arc_challenge_fa.csv"
 
 # Output settings
-save_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_maverik/fa"
-save_prefix: "concise_rewrites_llama-4-maverick_fa"   # final file → {save_prefix}_{pct}.csv
+save_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_scout/fa"
+save_prefix: "concise_rewrites_llama-4-scout_fa"   # final file → {save_prefix}_{pct}.csv
 
 # Model generation settings
 temperature: 0.3
-percentages: [20, 10]
+percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
 sleep_seconds: 0.7
 
 # Logging

@@ -1,7 +1,7 @@
-api_key: "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"
-model: "meta-llama/llama-4-maverick"
+api_key: "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"
+model: "meta-llama/llama-4-scout"
 input: "../data/processed/ai2_arc/ARC-Challenge-clean.csv"
-output: "pre_results_compelete_llama_4_maverik_arc_challenge.csv"
+output: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_scout/en/pre_results_compelete_llama_4_scout_arc_challenge.csv"
 temperature: 0.3
 max_tokens: None
 log_level: "INFO"

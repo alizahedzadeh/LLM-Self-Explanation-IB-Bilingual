@@ -1,8 +1,8 @@
-input: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_maverik/pre_results_compelete_llama_4_maverik_arc_challenge.csv
-output_dir: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_maverik
-api_key: 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
-model: meta-llama/llama-4-maverick
-model_name: llama-4-maverick
+input: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_scout/en/pre_results_compelete_llama_4_scout_arc_challenge.csv
+output_dir: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_scout/en
+api_key: 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
+model: meta-llama/llama-4-scout
+model_name: llama-4-scout
 percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
 log_level: INFO
-sleep: 1.2
+sleep: 0.7

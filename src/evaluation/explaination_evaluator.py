@@ -219,6 +219,9 @@ def evaluate_models_with_masked_explanation(model_names, df, option_columns, opt
             if not prompt_exp.endswith(" "): prompt_exp += " "
             pred_letter_exp, pred_conf_exp, probs_exp, _ = score_options(prompt_exp)
 
+            gold_index = option_letters.index(gold_letter)
+            gold_conf_exp = probs_exp[gold_index].item()
+
             is_correct_noexp = (pred_letter == gold_letter)
             is_correct_exp = (pred_letter_exp == gold_letter)
             sufficiency = is_correct_exp
@@ -250,7 +253,7 @@ def evaluate_models_with_masked_explanation(model_names, df, option_columns, opt
                 'pred_noexp': pred_letter,
                 'prob_noexp': pred_conf,
                 'pred_exp': pred_letter_exp,
-                'prob_exp': pred_conf_exp,
+                'prob_exp': gold_conf_exp,
                 'is_correct_noexp': is_correct_noexp,
                 'is_correct_exp': is_correct_exp,
                 'sufficiency': sufficiency,
