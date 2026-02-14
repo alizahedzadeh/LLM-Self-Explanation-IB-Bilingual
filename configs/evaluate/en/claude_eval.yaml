@@ -20,5 +20,8 @@ trim_versions:
   20: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/concise_rewrites_claude-3-haiku_20.csv"
   10: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/claude_3_haiku/concise_rewrites_claude-3-haiku_10.csv"
 
-results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation/qwen_1.7B/en/claude"
-filename_pattern: "eval_claude_3_haiku_{pct}.csv"
+# Base directory (script will automatically create subfolders per model)
+results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation"
+
+# Supports {model} and {pct}
+filename_pattern: "eval_{model}_{pct}.csv"

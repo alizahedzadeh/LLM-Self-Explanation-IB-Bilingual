@@ -6,10 +6,8 @@ import os
 import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 from src.evaluation.explaination_evaluator import evaluate_models_with_masked_explanation
 from src.utils.helpers import mask_explanation, mask_explanation_limit
-
 
 def load_config(config_path):
     with open(config_path, "r") as f:

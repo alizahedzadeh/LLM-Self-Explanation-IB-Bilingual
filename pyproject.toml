@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "self_explaination_thesis"
+version = "0.1.0"
+description = "Evaluation scripts and models for thesis"
+authors = [
+    { name = "Ali Zahedzadeh", email = "alizahedzadeh7@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
