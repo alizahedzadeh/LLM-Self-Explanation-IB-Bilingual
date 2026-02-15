@@ -7,6 +7,7 @@ import torch.nn.functional as F
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+
 def evaluate_models_with_explanation(model_names, df, option_columns, option_letters, logger):
     """
     Evaluate a list of language models on a multiple-choice QA dataset
@@ -239,9 +240,9 @@ def evaluate_models_with_masked_explanation(model_names, df, option_columns, opt
             # )
             if idx % 100 == 0:
                 logger.info(
-                    f"[{short_name}] [Q{idx}] Gold: {gold_letter} | Pred_noexp: {pred_letter} ({pred_conf:.3f}) | "
-                    f"Pred_exp: {pred_letter_exp} ({pred_conf_exp:.3f}) | "
-                    f"Correct_noexp: {is_correct_noexp} | Correct_exp: {is_correct_exp} | Sufficient: {sufficiency}"
+                        f"[{short_name}] [Q{idx}] Gold: {gold_letter} | Pred_noexp: {pred_letter} ({pred_conf:.3f}) | "
+                        f"Pred_exp: {pred_letter_exp} ({pred_conf_exp:.3f}) | "
+                        f"Correct_noexp: {is_correct_noexp} | Correct_exp: {is_correct_exp} | Sufficient: {sufficiency}"
                 )
 
             results.append({
