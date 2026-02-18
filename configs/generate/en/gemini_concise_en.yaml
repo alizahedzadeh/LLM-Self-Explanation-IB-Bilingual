@@ -1,8 +1,0 @@
-input: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gemini_2_flash/pre_results_compelete_gemini_2.0_flash_arc_challenge.csv
-output_dir: /home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/gemini_2_flash
-api_key: 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
-model: google/gemini-2.0-flash-001
-model_name: gemini-2.0-flash-001
-percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
-log_level: INFO
-sleep: 1.2

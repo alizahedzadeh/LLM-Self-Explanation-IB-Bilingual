@@ -1,8 +1,0 @@
-input: /home/tmptiloct15/self-explaination-thesis/results/models/prediction/mistral_small_3.1/en/pre_results_compelete_mistrall_3.1_small_arc_challenge.csv
-output_dir: /home/tmptiloct15/self-explaination-thesis/results/models/prediction/mistral_small_3.1/en
-api_key: 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
-model: mistralai/mistral-small-3.1-24b-instruct
-model_name: mistral-small-3.1
-percentages: [90, 80, 70, 60, 50, 40, 30, 20, 10]
-log_level: INFO
-sleep: 1.5
