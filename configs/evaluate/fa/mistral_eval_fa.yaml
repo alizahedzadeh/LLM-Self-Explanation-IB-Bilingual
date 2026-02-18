@@ -1,6 +1,8 @@
 models:
-  - name: "Qwen/Qwen3-1.7B"
-    short: "qwen3-1.7b"
+  - name: "google/gemma-3-4b-pt"
+    short: "gemma3-4b-pt"
+  - name: "meta-llama/Llama-3.2-3B"
+    short: "llama-3.2-3b"
 
 option_columns: ["choice_A", "choice_B", "choice_C", "choice_D"]
 option_letters: ["A", "B", "C", "D"]

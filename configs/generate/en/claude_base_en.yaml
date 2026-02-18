@@ -1,4 +1,3 @@
-api_key: "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"
 model: "anthropic/claude-3-haiku"
 input: "../data/processed/ai2_arc/ARC-Challenge-clean.csv"
 output: "pre_results_compelete_claude_3_haiku_arc_challenge.csv"

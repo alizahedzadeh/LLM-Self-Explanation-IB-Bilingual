@@ -19,5 +19,8 @@ trim_versions:
   20: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/cohere_r_command/en/concise_rewrites_command-r-08-2024_20.csv"
   10: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/cohere_r_command/en/concise_rewrites_command-r-08-2024_10.csv"
 
-results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation/qwen_1.7B/en/cohere"
-filename_pattern: "eval_cohere_r_command_{pct}.csv"
+# Base directory (script will automatically create subfolders per model)
+results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation"
+
+# Supports {model} and {pct}
+filename_pattern: "eval_cohere-r_{model}_{pct}.csv"

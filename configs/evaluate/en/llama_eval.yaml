@@ -19,5 +19,8 @@ trim_versions:
   20: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_scout/en/concise_rewrites_llama-4-scout_20.csv"
   10: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/llama_4_scout/en/concise_rewrites_llama-4-scout_10.csv"
 
-results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation/qwen_1.7B/en_with_goldprob/llama_scout"
-filename_pattern: "eval_llama_4_scout_masked_{pct}.csv"
+# Base directory (script will automatically create subfolders per model)
+results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation"
+
+# Supports {model} and {pct}
+filename_pattern: "eval_llama-4-scout_{model}_{pct}.csv"

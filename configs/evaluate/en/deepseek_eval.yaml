@@ -19,5 +19,8 @@ trim_versions:
   20: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/en/concise_rewrites_deepseek-chat-v3.1_20.csv"
   10: "/home/a_zahedzadeh/self-explaination-thesis/results/models/prediction/deepseek_chat_v3.1/en/concise_rewrites_deepseek-chat-v3.1_10.csv"
 
-results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation/qwen_1.7B/en/deepseek"
-filename_pattern: "eval_deepseek_v3.1_{pct}.csv"
+# Base directory (script will automatically create subfolders per model)
+results_dir: "/home/a_zahedzadeh/self-explaination-thesis/results/models/evaluation"
+
+# Supports {model} and {pct}
+filename_pattern: "eval_deepseek-chat-v3.1_{model}_{pct}.csv"
