@@ -1,4 +1,0 @@
-row_id,question_id,prediction,actual_answer,is_correct,split,has_error,processing_time
-2576,Mercury_7090598,C,C,True,validation,False,2.2767014503479004
-2278,Mercury_7108990,A,A,True,test,False,2.3142154216766357
-2104,Mercury_184818,D,D,True,test,False,2.958925485610962

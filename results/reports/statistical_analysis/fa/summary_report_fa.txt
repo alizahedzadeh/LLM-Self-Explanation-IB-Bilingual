@@ -1,0 +1,109 @@
+================================================================================
+STATISTICAL ANALYSIS SUMMARY - FA
+================================================================================
+
+--- McNemar's Test Results (Accuracy Changes) ---
+
+Significant tests (α=0.05): 9/9
+
+McNemar: Z0 vs Z10
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+McNemar: Z0 vs Z20
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+McNemar: Z0 vs Z30
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+McNemar: Z0 vs Z40
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+McNemar: Z0 vs Z50
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+McNemar: Z0 vs Z60
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+McNemar: Z0 vs Z70
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+McNemar: Z0 vs Z80
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+McNemar: Z0 vs Z90
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Sample size: 20648
+
+--------------------------------------------------------------------------------
+--- Paired t-test Results (Probability Changes) ---
+
+Significant tests (α=0.05): 9/9
+
+t-test: Z0 vs Z10
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.1353
+  Cohen's d: 0.4177 (small effect)
+  Sample size: 20648
+
+t-test: Z0 vs Z20
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.1023
+  Cohen's d: 0.3453 (small effect)
+  Sample size: 20648
+
+t-test: Z0 vs Z30
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.0791
+  Cohen's d: 0.2851 (small effect)
+  Sample size: 20648
+
+t-test: Z0 vs Z40
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.0642
+  Cohen's d: 0.2462 (small effect)
+  Sample size: 20648
+
+t-test: Z0 vs Z50
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.0540
+  Cohen's d: 0.2151 (small effect)
+  Sample size: 20648
+
+t-test: Z0 vs Z60
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.0487
+  Cohen's d: 0.1994 (negligible effect)
+  Sample size: 20648
+
+t-test: Z0 vs Z70
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.0419
+  Cohen's d: 0.1782 (negligible effect)
+  Sample size: 20648
+
+t-test: Z0 vs Z80
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.0366
+  Cohen's d: 0.1582 (negligible effect)
+  Sample size: 20648
+
+t-test: Z0 vs Z90
+  p-value: 0.000000 - ✓ SIGNIFICANT
+  Mean difference: 0.0316
+  Cohen's d: 0.1423 (negligible effect)
+  Sample size: 20648
+
+================================================================================
+INTERPRETATION GUIDE:
+  • p-value < 0.05: Statistically significant
+  • p-value < 0.01: Highly significant
+  • Cohen's d: |d| < 0.2 (small), 0.2-0.5 (medium), > 0.8 (large)
+================================================================================

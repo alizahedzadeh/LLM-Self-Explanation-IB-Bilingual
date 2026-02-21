@@ -1,6 +1,0 @@
-row_id,question_id,prediction,actual_answer,is_correct,split,has_error,processing_time
-2576,Mercury_7090598,C,C,True,validation,False,7.8140013217926025
-2278,Mercury_7108990,A,A,True,test,False,2.8013696670532227
-2104,Mercury_184818,D,D,True,test,False,2.0073814392089844
-2445,Mercury_SC_407314,A,A,True,validation,False,2.199406862258911
-2432,LEAP_2004_8_10397,B,B,True,validation,False,1.9882309436798096
