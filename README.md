@@ -51,4 +51,4 @@ Open an issue or contact: [alizahedzadeh7@gmail.com]
 
 ---
 
-**Paper**: [https://arxiv.org/abs/2602.14002](https://arxiv.org/abs/XXXX.XXXXX)
+**Paper**: [https://arxiv.org/abs/2602.14002](https://arxiv.org/abs/2602.14002)
